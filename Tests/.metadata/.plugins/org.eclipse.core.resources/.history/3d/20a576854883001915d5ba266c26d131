@@ -1,0 +1,15 @@
+package test2;
+
+
+public class Utility2C {
+	
+	private Utility2C() {
+		
+	}
+	
+	public static char last(String s) {
+		
+	}
+
+	
+}

@@ -1,0 +1,13 @@
+package test2;
+
+public class testUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "noon";
+		
+		System.out.println("noon: " + Utility2B.isPalindrome(s));
+
+	}
+
+}

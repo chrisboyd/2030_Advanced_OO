@@ -1,0 +1,15 @@
+package test2;
+
+
+public class Utility2B {
+	
+	private Utility2B() {
+		
+	}
+	
+	public static String join(String s, String t, String sep) {
+		
+	}
+	
+	
+}

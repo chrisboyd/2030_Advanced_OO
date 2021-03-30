@@ -1,0 +1,23 @@
+EECS1001,Research Directions in Computing,
+EECS1011,Computational Thinking,
+EECS1012,Net-centric Introduction to Computing,
+EECS1021,Object Oriented Programming,EECS1011
+EECS1022,Programming for Mobile Computers,EECS1012
+EECS1520,Computer Use: Fundamentals,
+EECS2001,Intro. to the Theory of Computation,EECS1021; EECS1022; EECS1720; EECS1030; EECS1028
+EECS2011,Fundamentals of Data Structures,EECS1030; EECS2030; EECS1028
+EECS2021,Computer Organization,EECS1021; EECS1022; EECS1720; EECS1030
+EECS2030,Advanced Object Oriented Programming,EECS1021; EECS1020; EECS1022; EECS1720
+EECS2031,Software Tools,EECS1030; EECS2030
+EECS2200,Electrical Circuits,
+EECS3101,Design and Analysis of Algorithms,EECS2030; EECS1030; EECS2011
+EECS3201,Digital Logic Design,EECS2030; EECS1030; EECS2021; EECS2200
+EECS3213,Communication Networks,EECS2030; EECS1030
+EECS3221,Operating System Fundamentals,EECS2030; EECS1030; EECS2021; EECS2031
+EECS3421,Introduction to Database Systems,EECS2030; EECS1030
+EECS3451,Signals and Systems,EECS2030; EECS1030; EECS2021
+EECS3481,Applied Cryptography,EECS2030; EECS1030; EECS2011
+EECS4115,Computational Complexity,EECS2030; EECS1030; EECS2001; EECS3101
+EECS4312,Software Engineering Requirements,EECS2030; EECS1030; EECS3311
+EECS4314,Advanced Software Engineering,EECS2030; EECS1030; EECS3311
+MATH1090,Intro. to Logic for Computer Science,

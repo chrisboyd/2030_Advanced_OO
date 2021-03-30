@@ -1,0 +1,19 @@
+package test2;
+
+public class testUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "level";
+		
+		System.out.println("palindrome: " + Utility2B.isPalindrome(s));
+		System.out.println("distance: " + Utility2B.distance("talk", "talk"));
+		System.out.println("distance: " + Utility2B.distance("talk", "walk"));
+		System.out.println("distance: " + Utility2B.distance("well", "walk"));
+		System.out.println("distance: " + Utility2B.distance("pick", "walk"));
+		System.out.println("distance: " + Utility2B.distance("zzzz", "walk") );
+		
+
+	}
+
+}

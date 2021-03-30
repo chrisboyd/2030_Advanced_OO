@@ -1,0 +1,31 @@
+package test2;
+
+/**
+ * A class that keeps count of an integer number of things.
+ * A Counter has a name that is represented as a string.
+ * A Counter has a value (the count) that is always greater
+ * than or equal to zero.
+ *
+ */
+public class Counter {
+
+	/**
+	 * The name of this counter.
+	 */
+	private String name;
+	
+	/**
+	 * The value of this counter.
+	 */
+	private int value;
+	
+	public Counter(String name) {
+		Counter(name, value);
+	}
+	
+	public Counter(String name, int value) {
+		
+	}
+	
+	
+}

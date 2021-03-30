@@ -1,0 +1,23 @@
+package test2;
+
+/**
+ * A class that represents a range of integer values. A range
+ * has a minimum value and a maximum value.
+ *
+ */
+public class Range {
+
+	/**
+	 * The minimum value of the range.
+	 */
+	private int min;
+	
+	/**
+	 * The maximum value of the range.
+	 */
+	private int max;
+	
+	public Range() {
+		this(-1, 1);
+	}
+}

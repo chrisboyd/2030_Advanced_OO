@@ -1,0 +1,22 @@
+package test2;
+
+import java.util.List;
+
+public class Utility2A {
+	
+	private Utility2A() {
+		
+	}
+	
+	public static Integer last(List<Integer> t) {
+		return t.get(t.size() - 1);
+	}
+	
+	public static int totalArea(List<Integer> widths, List<Integer> heights) {
+		if (widths.size() != heights.size())
+			throw new IllegalArgumentException("Widths and Heights lists are different sizes");
+		
+		
+		
+	}
+}

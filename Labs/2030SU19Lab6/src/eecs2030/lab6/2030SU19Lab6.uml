@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ptGXEJxJEemb3L5RebzWiw" name="_2030SU19Lab6">
+    <eAnnotations xmi:id="_pywTIJxJEemb3L5RebzWiw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_pywTIZxJEemb3L5RebzWiw" source="codegen">
+        <details xmi:id="_pywTIpxJEemb3L5RebzWiw" key="codegenDirectory" value="/2030SU19Lab6/src"/>
+        <details xmi:id="_qSAa8JxJEemb3L5RebzWiw" key="AssociatedSourceCode" value="/2030SU19Lab6/src/eecs2030/lab6/ForecastApp.java;858109154/1;/2030SU19Lab6/src/eecs2030/lab6/PressureSensor.java;1609978541/1;/2030SU19Lab6/src/eecs2030/lab6/SensorFailedException.java;3483942533/1;/2030SU19Lab6/src/eecs2030/lab6/StatisticsApp.java;1498737301/1;/2030SU19Lab6/src/eecs2030/lab6/TemperatureSensor.java;3254661853/1;/2030SU19Lab6/src/eecs2030/lab6/WSensor.java;1698957459/1;/2030SU19Lab6/src/eecs2030/lab6/WeatherObserver.java;2048376931/1;/2030SU19Lab6/src/eecs2030/lab6/WeatherStation.java;634002767/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_qLrwgJxJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_qLrwgZxJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_qLsXkJxJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_qLsXkZxJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_qLsXkpxJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_qLsXk5xJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_qLsXlJxJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_qLsXlZxJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_qLs-oJxJEemb3L5RebzWiw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qLCQQJxJEemb3L5RebzWiw" name="eecs2030">
+      <packagedElement xmi:type="uml:Package" xmi:id="_qLF6oJxJEemb3L5RebzWiw" name="lab6">
+        <packagedElement xmi:type="uml:Class" xmi:id="_qLqiYJxJEemb3L5RebzWiw" name="ForecastApp">
+          <ownedComment xmi:id="_qOfM4JxJEemb3L5RebzWiw">
+            <body>A weather forecast app determines if the pressure readings from its
+subscribed weather station, if any, indicate it is likely to rain due to a
+reduction on the pressure level.</body>
+          </ownedComment>
+          <generalization xmi:id="_qNtw0JxJEemb3L5RebzWiw" general="_qMoywJxJEemb3L5RebzWiw"/>
+          <ownedAttribute xmi:id="_qOEWIJxJEemb3L5RebzWiw" name="currPressure" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOE9MJxJEemb3L5RebzWiw" value="0.0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOGyYJxJEemb3L5RebzWiw" name="lastPressure" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOGyYZxJEemb3L5RebzWiw" value="0.0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOHZcJxJEemb3L5RebzWiw" name="station" visibility="private" type="_qMr2EJxJEemb3L5RebzWiw" association="_qOkscJxJEemb3L5RebzWiw">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOHZcZxJEemb3L5RebzWiw" value="null"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOX4IJxJEemb3L5RebzWiw" name="update" specification="_qLs-oZxJEemb3L5RebzWiw">
+            <language>java</language>
+            <body>if ((currPressure == 0.0) &amp;&amp; (lastPressure == 0.0)) {
+			lastPressure = station.getPressure();
+			currPressure = lastPressure;
+		}
+			
+		lastPressure = currPressure;
+		currPressure = station.getPressure();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOX4IZxJEemb3L5RebzWiw" name="getWeatherStation" specification="_qLtlsJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOX4IpxJEemb3L5RebzWiw" type="_qMr2EJxJEemb3L5RebzWiw" direction="return"/>
+            <language>java</language>
+            <body>return station;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOYfMJxJEemb3L5RebzWiw" name="setWeatherStation" specification="_qNtJwZxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOYfMZxJEemb3L5RebzWiw" name="ws" type="_qMr2EJxJEemb3L5RebzWiw"/>
+            <language>java</language>
+            <body>station = ws;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOYfMpxJEemb3L5RebzWiw" name="getCurrentPressure" specification="_qLuMwJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOYfM5xJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>//this.update();
+		
+		return currPressure;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOZGQJxJEemb3L5RebzWiw" name="isLikelyToRain" specification="_qLuz0ZxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOZGQZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>//this.update();
+		return currPressure &lt; lastPressure;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_qLs-oZxJEemb3L5RebzWiw" name="update" method="_qOX4IJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfM4ZxJEemb3L5RebzWiw">
+              <body>Update the reading of this weather observer. Update the current and last
+	 * readings of pressure.</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qLtlsJxJEemb3L5RebzWiw" name="getWeatherStation" method="_qOX4IZxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfM4pxJEemb3L5RebzWiw">
+              <body>Get the weather station to which the current weather observer is subscribed
+	 * to.
+	 * 
+	 * @return the weather station to which the current weather observer is
+	 *         subscribed to</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qNtJwJxJEemb3L5RebzWiw" type="_qMr2EJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qLuMwJxJEemb3L5RebzWiw" name="getCurrentPressure" method="_qOYfMpxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfM5JxJEemb3L5RebzWiw">
+              <body>Get the pressure level read from the last update.
+	 * 
+	 * @return pressure level read from the last update</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qLuz0JxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qLuz0ZxJEemb3L5RebzWiw" name="isLikelyToRain" method="_qOZGQJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfM5ZxJEemb3L5RebzWiw">
+              <body>Based on the last and second last readings of the pressure level, it is
+	 * determined as likely to rain if there is a strict reduction on the pressure
+	 * level; otherwise it is unlikely to rain.
+	 * 
+	 * @return whether or not it is likely to rain.</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qLva4JxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qNtJwZxJEemb3L5RebzWiw" name="setWeatherStation" method="_qOYfMJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfM45xJEemb3L5RebzWiw">
+              <body>Subscribe the current weather observer to the input weather station ws.
+	 * 
+	 * @param ws a weather station</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qNtJwpxJEemb3L5RebzWiw" name="ws" type="_qMr2EJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qLxQEJxJEemb3L5RebzWiw" name="PressureSensor">
+          <ownedComment xmi:id="_qOfM5pxJEemb3L5RebzWiw">
+            <body>Pressure Sensor. The default rate of failure is 0.0025&#xD;
+ *</body>
+          </ownedComment>
+          <generalization xmi:id="_qNuX4JxJEemb3L5RebzWiw" general="_qMFZIJxJEemb3L5RebzWiw"/>
+          <ownedAttribute xmi:id="_qOIAgZxJEemb3L5RebzWiw" name="FAILURE_RATE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOInkJxJEemb3L5RebzWiw" value="0.0025"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOInkZxJEemb3L5RebzWiw" name="pressure" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOZGQpxJEemb3L5RebzWiw" name="PressureSensor" specification="_qLzFQJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOZGQ5xJEemb3L5RebzWiw" name="press">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qOZGRJxJEemb3L5RebzWiw" type="_qLxQEJxJEemb3L5RebzWiw" direction="return"/>
+            <language>java</language>
+            <body>super(FAILURE_RATE);&#xD;
+		this.pressure = press;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOZtUJxJEemb3L5RebzWiw" name="get" specification="_qLzsUJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOZtUZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return this.pressure;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOZtUpxJEemb3L5RebzWiw" name="set" specification="_qL06cpxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOZtU5xJEemb3L5RebzWiw" name="value">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.pressure = value;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_qLzFQJxJEemb3L5RebzWiw" name="PressureSensor" method="_qOZGQpxJEemb3L5RebzWiw">
+            <eAnnotations xmi:id="_qLzFQpxJEemb3L5RebzWiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_qLzFQ5xJEemb3L5RebzWiw" key="create"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_qOfz8JxJEemb3L5RebzWiw">
+              <body>Initialize the pressure sensor with the given initial pressure.&#xD;
+	 * &#xD;
+	 * @param press the initial pressure</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qLzFQZxJEemb3L5RebzWiw" name="press">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qLzFRJxJEemb3L5RebzWiw" type="_qLxQEJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qLzsUJxJEemb3L5RebzWiw" name="get" visibility="protected" method="_qOZtUJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qL0TYJxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qL06cpxJEemb3L5RebzWiw" name="set" method="_qOZtUpxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qL1hgJxJEemb3L5RebzWiw" name="value">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qL3WsJxJEemb3L5RebzWiw" name="SensorFailedException">
+          <ownedComment xmi:id="_qOfz8ZxJEemb3L5RebzWiw">
+            <body>Custom exception thrown when a weather sensor fails to report a measurement.&#xD;
+It keeps a reference to the failed sensor.&#xD;
+ *</body>
+          </ownedComment>
+          <generalization xmi:id="_qOArwJxJEemb3L5RebzWiw" general="_qN_doZxJEemb3L5RebzWiw"/>
+          <ownedAttribute xmi:id="_qOJ1sJxJEemb3L5RebzWiw" name="failed" visibility="private" type="_qMFZIJxJEemb3L5RebzWiw" association="_qOl6kZxJEemb3L5RebzWiw"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOaUYJxJEemb3L5RebzWiw" name="SensorFailedException" specification="_qNvmAJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOaUYZxJEemb3L5RebzWiw" name="s" type="_qMFZIJxJEemb3L5RebzWiw"/>
+            <ownedParameter xmi:id="_qOaUYpxJEemb3L5RebzWiw" type="_qL3WsJxJEemb3L5RebzWiw" direction="return"/>
+            <language>java</language>
+            <body>failed = s;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOaUY5xJEemb3L5RebzWiw" name="getSensor" specification="_qL4k0JxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOaUZJxJEemb3L5RebzWiw" type="_qMFZIJxJEemb3L5RebzWiw" direction="return"/>
+            <language>java</language>
+            <body>return failed;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_qL4k0JxJEemb3L5RebzWiw" name="getSensor" method="_qOaUY5xJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfz8pxJEemb3L5RebzWiw">
+              <body>Returns a reference to the failed sensor&#xD;
+	 * &#xD;
+	 * @return a reference to the failed sensor</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qNwNEJxJEemb3L5RebzWiw" type="_qMFZIJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qNvmAJxJEemb3L5RebzWiw" name="SensorFailedException" method="_qOaUYJxJEemb3L5RebzWiw">
+            <eAnnotations xmi:id="_qNvmApxJEemb3L5RebzWiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_qNvmA5xJEemb3L5RebzWiw" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_qNvmAZxJEemb3L5RebzWiw" name="s" type="_qMFZIJxJEemb3L5RebzWiw"/>
+            <ownedParameter xmi:id="_qNvmBJxJEemb3L5RebzWiw" type="_qL3WsJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qL6aAJxJEemb3L5RebzWiw" name="StatisticsApp">
+          <ownedComment xmi:id="_qOfz85xJEemb3L5RebzWiw">
+            <body>A weather statistics app calculates the minimum, maximum, and average
+temperature read so far from its subscribed weather station, if any.</body>
+          </ownedComment>
+          <generalization xmi:id="_qNxbMZxJEemb3L5RebzWiw" general="_qMoywJxJEemb3L5RebzWiw"/>
+          <ownedAttribute xmi:id="_qOKcwZxJEemb3L5RebzWiw" name="max" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOKcwpxJEemb3L5RebzWiw" value="Double.NaN"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOLD0ZxJEemb3L5RebzWiw" name="min" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOLD0pxJEemb3L5RebzWiw" value="Double.NaN"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOLq4ZxJEemb3L5RebzWiw" name="total" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOLq4pxJEemb3L5RebzWiw" value="0.0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOMR8ZxJEemb3L5RebzWiw" name="readings" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOMR8pxJEemb3L5RebzWiw" value="0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOOHIJxJEemb3L5RebzWiw" name="station" visibility="private" type="_qMr2EJxJEemb3L5RebzWiw" association="_qOmhoZxJEemb3L5RebzWiw">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOOHIZxJEemb3L5RebzWiw" value="null"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOaUZZxJEemb3L5RebzWiw" name="update" specification="_qL7oIJxJEemb3L5RebzWiw">
+            <language>java</language>
+            <body>double temp = station.getTemperature();
+		readings++;
+		total += temp;
+		
+		if (readings == 1) {
+			max = temp;
+			min = temp;
+		}
+		
+		if (temp > max)
+			max = temp;
+		if (temp &lt; min)
+			min = temp;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOaUZpxJEemb3L5RebzWiw" name="getWeatherStation" specification="_qL8PMJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOaUZ5xJEemb3L5RebzWiw" type="_qMr2EJxJEemb3L5RebzWiw" direction="return"/>
+            <language>java</language>
+            <body>return station;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOa7cJxJEemb3L5RebzWiw" name="setWeatherStation" specification="_qNw0IZxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOa7cZxJEemb3L5RebzWiw" name="ws" type="_qMr2EJxJEemb3L5RebzWiw"/>
+            <language>java</language>
+            <body>station = ws;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOa7cpxJEemb3L5RebzWiw" name="getMinTemperature" specification="_qL82QJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOa7c5xJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return min;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOa7dJxJEemb3L5RebzWiw" name="getMaxTemperature" specification="_qL9dUJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOa7dZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return max;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOa7dpxJEemb3L5RebzWiw" name="getAverageTemperature" specification="_qL9dUpxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOa7d5xJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return total / readings;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_qL7oIJxJEemb3L5RebzWiw" name="update" method="_qOaUZZxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfz9JxJEemb3L5RebzWiw">
+              <body>Update the reading of this weather observer. Update the current temperature
+	 * and the maximum, minimum, and average accordingly.</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qL8PMJxJEemb3L5RebzWiw" name="getWeatherStation" method="_qOaUZpxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfz9ZxJEemb3L5RebzWiw">
+              <body>Get the weather station to which the current weather observer is subscribed
+	 * to.
+	 * 
+	 * @return the weather station to which the current weather observer is
+	 *         subscribed to</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qNw0IJxJEemb3L5RebzWiw" type="_qMr2EJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qL82QJxJEemb3L5RebzWiw" name="getMinTemperature" method="_qOa7cpxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfz95xJEemb3L5RebzWiw">
+              <body>Get the minimum temperature based on the readings so far.
+	 * 
+	 * @return minimum temperature based on the readings so far</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qL82QZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qL9dUJxJEemb3L5RebzWiw" name="getMaxTemperature" method="_qOa7dJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfz-JxJEemb3L5RebzWiw">
+              <body>Get the maximum temperature based on the readings so far.
+	 * 
+	 * @return maximum temperature based on the readings so far</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qL9dUZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qL9dUpxJEemb3L5RebzWiw" name="getAverageTemperature" method="_qOa7dpxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfz-ZxJEemb3L5RebzWiw">
+              <body>Get the average temperature based on the readings so far.
+	 * 
+	 * @return average temperature based on the readings so far</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qL-EYJxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qNw0IZxJEemb3L5RebzWiw" name="setWeatherStation" method="_qOa7cJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOfz9pxJEemb3L5RebzWiw">
+              <body>Subscribe the current weather observer to the input weather station ws.
+	 * 
+	 * @param ws a weather station</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qNxbMJxJEemb3L5RebzWiw" name="ws" type="_qMr2EJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qMAgoJxJEemb3L5RebzWiw" name="TemperatureSensor">
+          <ownedComment xmi:id="_qOfz-pxJEemb3L5RebzWiw">
+            <body>Temperature Sensor. The default rate of failure is 0.001&#xD;
+ *</body>
+          </ownedComment>
+          <generalization xmi:id="_qNzQYJxJEemb3L5RebzWiw" general="_qMFZIJxJEemb3L5RebzWiw"/>
+          <ownedAttribute xmi:id="_qOPVQJxJEemb3L5RebzWiw" name="FAILURE_RATE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_qOP8UJxJEemb3L5RebzWiw" value="0.001"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOP8UZxJEemb3L5RebzWiw" name="temp" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qObigJxJEemb3L5RebzWiw" name="TemperatureSensor" specification="_qMBHsJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qObigZxJEemb3L5RebzWiw" name="temp">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qObigpxJEemb3L5RebzWiw" type="_qMAgoJxJEemb3L5RebzWiw" direction="return"/>
+            <language>java</language>
+            <body>super(FAILURE_RATE);&#xD;
+		this.temp = temp;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qObig5xJEemb3L5RebzWiw" name="get" specification="_qMBuxJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qObihJxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return this.temp;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qObihZxJEemb3L5RebzWiw" name="set" specification="_qMC84pxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qObihpxJEemb3L5RebzWiw" name="value">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.temp = value;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_qMBHsJxJEemb3L5RebzWiw" name="TemperatureSensor" method="_qObigJxJEemb3L5RebzWiw">
+            <eAnnotations xmi:id="_qMBuwZxJEemb3L5RebzWiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_qMBuwpxJEemb3L5RebzWiw" key="create"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_qOgbAJxJEemb3L5RebzWiw">
+              <body>Initialize the temperature sensor with the given initial temperature.&#xD;
+	 * &#xD;
+	 * @param temp the initial temperature</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qMBuwJxJEemb3L5RebzWiw" name="temp">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qMBuw5xJEemb3L5RebzWiw" type="_qMAgoJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMBuxJxJEemb3L5RebzWiw" name="get" visibility="protected" method="_qObig5xJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qMCV0JxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMC84pxJEemb3L5RebzWiw" name="set" method="_qObihZxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qMDj8JxJEemb3L5RebzWiw" name="value">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qMFZIJxJEemb3L5RebzWiw" name="WSensor" isAbstract="true">
+          <ownedComment xmi:id="_qOgbAZxJEemb3L5RebzWiw">
+            <body>This is an abstract class to represent a weather sensor. Weather sensors&#xD;
+report weather parameters to a weather station. Sensor readings are pulled by&#xD;
+calling the method read. Each sensor has a fixed failure rate that switches&#xD;
+the sensor state to damaged and needs to be fixed. A damaged sensor will&#xD;
+throw an exception when trying to get its reading.&#xD;
+ *</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_qOQjYZxJEemb3L5RebzWiw" name="failed" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qORKcZxJEemb3L5RebzWiw" name="failureRate" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOcJkJxJEemb3L5RebzWiw" name="WSensor" specification="_qMGnQJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOcJkZxJEemb3L5RebzWiw" name="failureRate">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qOcJkpxJEemb3L5RebzWiw" type="_qMFZIJxJEemb3L5RebzWiw" direction="return"/>
+            <language>java</language>
+            <body>failed = false;&#xD;
+		this.failureRate = failureRate;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOcJk5xJEemb3L5RebzWiw" name="read" specification="_qMHOUZxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOcJlJxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>if (Math.random() &lt; failureRate) {&#xD;
+			failed = true;&#xD;
+			throw new SensorFailedException(this);&#xD;
+		}&#xD;
+&#xD;
+		return get();&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOcJlZxJEemb3L5RebzWiw" name="fix" specification="_qMIccpxJEemb3L5RebzWiw">
+            <language>java</language>
+            <body>this.failed = false;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_qMGnQJxJEemb3L5RebzWiw" name="WSensor" method="_qOcJkJxJEemb3L5RebzWiw">
+            <eAnnotations xmi:id="_qMGnQpxJEemb3L5RebzWiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_qMGnQ5xJEemb3L5RebzWiw" key="create"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_qOgbApxJEemb3L5RebzWiw">
+              <body>Initialize the sensor with the given failure rate.&#xD;
+	 * &#xD;
+	 * @param failureRate</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qMGnQZxJEemb3L5RebzWiw" name="failureRate">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_qMHOUJxJEemb3L5RebzWiw" type="_qMFZIJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMHOUZxJEemb3L5RebzWiw" name="read" isLeaf="true" method="_qOcJk5xJEemb3L5RebzWiw" raisedException="_qL3WsJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOgbA5xJEemb3L5RebzWiw">
+              <body>Reads the measurement from the sensor and accounts for the sensor failures. A&#xD;
+	 * random number is utilized to simulate the probability of failures. Once the&#xD;
+	 * probability is less than the failure rate the sensor state is switched to&#xD;
+	 * damaged.&#xD;
+	 * &#xD;
+	 * @return the measurement of the sensor.&#xD;
+	 * @throws SensorFailedException if the sensor is damaged.</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qMHOUpxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMH1YJxJEemb3L5RebzWiw" name="get" visibility="protected" isAbstract="true">
+            <ownedComment xmi:id="_qOgbBJxJEemb3L5RebzWiw">
+              <body>Get the measurement of the sensor regardless of its state.&#xD;
+	 * &#xD;
+	 * @return the measurement of the sensor regardless of its state.</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qMH1YZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMIccJxJEemb3L5RebzWiw" name="set" isAbstract="true">
+            <ownedComment xmi:id="_qOgbBZxJEemb3L5RebzWiw">
+              <body>Sets the measurement value of the sensor regardless of the state.&#xD;
+	 * &#xD;
+	 * @param value the value of the measurement</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qMIccZxJEemb3L5RebzWiw" name="value">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMIccpxJEemb3L5RebzWiw" name="fix" isLeaf="true" method="_qOcJlZxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOgbBpxJEemb3L5RebzWiw">
+              <body>Fixes a damaged sensor</body>
+            </ownedComment>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qMoywJxJEemb3L5RebzWiw" name="WeatherObserver" isAbstract="true">
+          <ownedComment xmi:id="_qOgbB5xJEemb3L5RebzWiw">
+            <body>A weather observer should be subscribed to some weather station and be kept&#xD;
+up to date whenever an update on the measures of weather parameters occurs.&#xD;
+&#xD;
+DO NOT MODIFY THIS CLASS.</body>
+          </ownedComment>
+          <ownedOperation xmi:id="_qMqA4JxJEemb3L5RebzWiw" name="update" isAbstract="true">
+            <ownedComment xmi:id="_qOgbCJxJEemb3L5RebzWiw">
+              <body>Update the reading of this weather observer.</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMqn8JxJEemb3L5RebzWiw" name="getWeatherStation" isAbstract="true">
+            <ownedComment xmi:id="_qOgbCZxJEemb3L5RebzWiw">
+              <body>Get the weather station to which the current weather observer is subscribed&#xD;
+	 * to.&#xD;
+	 * &#xD;
+	 * @return the weather station to which the current weather observer is&#xD;
+	 *         subscribed to</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qNz3cJxJEemb3L5RebzWiw" type="_qMr2EJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qN0egJxJEemb3L5RebzWiw" name="setWeatherStation" isAbstract="true">
+            <ownedComment xmi:id="_qOgbCpxJEemb3L5RebzWiw">
+              <body>Subscribe the current weather observer to the input weather station ws.&#xD;
+	 * &#xD;
+	 * @param ws a weather station</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qN0egZxJEemb3L5RebzWiw" name="ws" type="_qMr2EJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qMr2EJxJEemb3L5RebzWiw" name="WeatherStation">
+          <ownedComment xmi:id="_qOhCEJxJEemb3L5RebzWiw">
+            <body>A weather station contains sets of weather sensors to measure various weather
+parameters and publishes the readings to a list of subscribed weather
+observers.
+
+The weather station pulls the readings from the sensors. Usually there is a
+set of redundant sensors for each weather parameter such as temperature and
+pressure. The value reported by the weather station is the average consensus
+of the readings, i.e. the average of the available measurements. In case any
+sensor fails, its reading is eliminated from the average and this sensor will
+be fixed. The weather station notifies the subscribed observers for any
+updates in the weather parameters.
+ *</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_qOS_oJxJEemb3L5RebzWiw" name="observers" type="_qMoywJxJEemb3L5RebzWiw" isOrdered="true" isReadOnly="true" association="_qOnIsZxJEemb3L5RebzWiw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qOTmsJxJEemb3L5RebzWiw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOU00ZxJEemb3L5RebzWiw" name="tempSensors" visibility="private" type="_qMAgoJxJEemb3L5RebzWiw" isOrdered="true" association="_qOnvwZxJEemb3L5RebzWiw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qOVb4JxJEemb3L5RebzWiw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_qOWC8ZxJEemb3L5RebzWiw" name="pressSensors" visibility="private" type="_qLxQEJxJEemb3L5RebzWiw" isOrdered="true" association="_qOoW0ZxJEemb3L5RebzWiw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qOWC8pxJEemb3L5RebzWiw" value="*"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOcwo5xJEemb3L5RebzWiw" name="WeatherStation" specification="_qMtrQJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOcwpJxJEemb3L5RebzWiw" type="_qMr2EJxJEemb3L5RebzWiw" direction="return"/>
+            <language>java</language>
+            <body>observers = new ArrayList&lt;WeatherObserver>();
+		tempSensors = new ArrayList&lt;TemperatureSensor>();
+		pressSensors = new ArrayList&lt;PressureSensor>();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOcwpZxJEemb3L5RebzWiw" name="subscribe" specification="_qN4I4JxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOcwppxJEemb3L5RebzWiw" name="o" type="_qMoywJxJEemb3L5RebzWiw"/>
+            <language>java</language>
+            <body>o.setWeatherStation(this);
+		observers.add(o);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOdXsJxJEemb3L5RebzWiw" name="unsubscribe" specification="_qN4v8JxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOdXsZxJEemb3L5RebzWiw" name="o" type="_qMoywJxJEemb3L5RebzWiw"/>
+            <language>java</language>
+            <body>o.setWeatherStation(null);
+		observers.remove(o);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOdXspxJEemb3L5RebzWiw" name="publish" specification="_qMvgcJxJEemb3L5RebzWiw">
+            <language>java</language>
+            <body>for (WeatherObserver w : observers)
+			w.update();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOdXs5xJEemb3L5RebzWiw" name="addTempSensor" specification="_qN5XAJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOdXtJxJEemb3L5RebzWiw" name="ts" type="_qMAgoJxJEemb3L5RebzWiw"/>
+            <language>java</language>
+            <body>tempSensors.add(ts);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOdXtZxJEemb3L5RebzWiw" name="addPressSensor" specification="_qN5-EJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOdXtpxJEemb3L5RebzWiw" name="ps" type="_qLxQEJxJEemb3L5RebzWiw"/>
+            <language>java</language>
+            <body>pressSensors.add(ps);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOd-wJxJEemb3L5RebzWiw" name="removeTempSensor" specification="_qN6lIZxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOd-wZxJEemb3L5RebzWiw" name="ts" type="_qMAgoJxJEemb3L5RebzWiw"/>
+            <language>java</language>
+            <body>tempSensors.remove(ts);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOd-wpxJEemb3L5RebzWiw" name="removePressSensor" specification="_qN7MMZxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOd-w5xJEemb3L5RebzWiw" name="ps" type="_qLxQEJxJEemb3L5RebzWiw"/>
+            <language>java</language>
+            <body>pressSensors.remove(ps);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOd-xJxJEemb3L5RebzWiw" name="getTemperature" specification="_qMwukJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOd-xZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>double total = 0.0;
+		int i = 0;
+		for (TemperatureSensor t : tempSensors) {
+			total += t.get();
+			i++;
+		}
+		return total / i;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qOd-xpxJEemb3L5RebzWiw" name="getPressure" specification="_qMxVoJxJEemb3L5RebzWiw">
+            <ownedParameter xmi:id="_qOd-x5xJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>double total = 0.0;
+		int i = 0;
+		for (PressureSensor p : pressSensors) {
+			total += p.get();
+			i++;
+		}
+		return total / i;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_qMtrQJxJEemb3L5RebzWiw" name="WeatherStation" method="_qOcwo5xJEemb3L5RebzWiw">
+            <eAnnotations xmi:id="_qMuSUJxJEemb3L5RebzWiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_qMuSUZxJEemb3L5RebzWiw" key="create"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_qOhCEZxJEemb3L5RebzWiw">
+              <body>Initialize a new weather station with no sensors installed.
+	 *</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qMuSUpxJEemb3L5RebzWiw" type="_qMr2EJxJEemb3L5RebzWiw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMvgcJxJEemb3L5RebzWiw" name="publish" method="_qOdXspxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCFJxJEemb3L5RebzWiw">
+              <body>Publish the latest readings of weather data to all subscribed observers. That
+	 * is, perform an update on each subscribed observer.</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMwukJxJEemb3L5RebzWiw" name="getTemperature" method="_qOd-xJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCGZxJEemb3L5RebzWiw">
+              <body>Get the consensus of temperature measurements.
+	 * 
+	 * @return latest temperature measure</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qMwukZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qMxVoJxJEemb3L5RebzWiw" name="getPressure" method="_qOd-xpxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCGpxJEemb3L5RebzWiw">
+              <body>Get the consensus of pressure measurements.
+	 * 
+	 * @return latest pressure measure</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qMxVoZxJEemb3L5RebzWiw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qN4I4JxJEemb3L5RebzWiw" name="subscribe" method="_qOcwpZxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCEpxJEemb3L5RebzWiw">
+              <body>Subscribe the input weather observer o as one of the observers of the current
+	 * weather station.
+	 * 
+	 * @param o a weather observer</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qN4I4ZxJEemb3L5RebzWiw" name="o" type="_qMoywJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qN4v8JxJEemb3L5RebzWiw" name="unsubscribe" method="_qOdXsJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCE5xJEemb3L5RebzWiw">
+              <body>Unsubscribe the input weather observer o from the list of observers of the
+	 * current weather station. Assume that the input o is an already-subscribed
+	 * observer.
+	 * 
+	 * @param o a weather observer</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qN4v8ZxJEemb3L5RebzWiw" name="o" type="_qMoywJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qN5XAJxJEemb3L5RebzWiw" name="addTempSensor" method="_qOdXs5xJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCFZxJEemb3L5RebzWiw">
+              <body>Adds temperature sensor to the corresponding sensor list
+	 * 
+	 * @param ts temperature sensor to be added</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qN5XAZxJEemb3L5RebzWiw" name="ts" type="_qMAgoJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qN5-EJxJEemb3L5RebzWiw" name="addPressSensor" method="_qOdXtZxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCFpxJEemb3L5RebzWiw">
+              <body>Adds pressure sensor to the corresponding sensor list
+	 * 
+	 * @param ps pressure sensor to be added</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qN6lIJxJEemb3L5RebzWiw" name="ps" type="_qLxQEJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qN6lIZxJEemb3L5RebzWiw" name="removeTempSensor" method="_qOd-wJxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCF5xJEemb3L5RebzWiw">
+              <body>Removes the temperature sensor from the corresponding sensor list
+	 * 
+	 * @param ts temperature sensor to be removed</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qN7MMJxJEemb3L5RebzWiw" name="ts" type="_qMAgoJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_qN7MMZxJEemb3L5RebzWiw" name="removePressSensor" method="_qOd-wpxJEemb3L5RebzWiw">
+            <ownedComment xmi:id="_qOhCGJxJEemb3L5RebzWiw">
+              <body>Removes the pressure sensor from the corresponding sensor list
+	 * 
+	 * @param ps pressure sensor to be removed</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_qN7zQJxJEemb3L5RebzWiw" name="ps" type="_qLxQEJxJEemb3L5RebzWiw"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qOkscJxJEemb3L5RebzWiw" name="" memberEnd="_qOkscZxJEemb3L5RebzWiw _qOHZcJxJEemb3L5RebzWiw">
+          <ownedEnd xmi:id="_qOkscZxJEemb3L5RebzWiw" name="" type="_qLqiYJxJEemb3L5RebzWiw" association="_qOkscJxJEemb3L5RebzWiw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qOl6kZxJEemb3L5RebzWiw" name="" memberEnd="_qOl6kpxJEemb3L5RebzWiw _qOJ1sJxJEemb3L5RebzWiw">
+          <ownedEnd xmi:id="_qOl6kpxJEemb3L5RebzWiw" name="" type="_qL3WsJxJEemb3L5RebzWiw" association="_qOl6kZxJEemb3L5RebzWiw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qOmhoZxJEemb3L5RebzWiw" name="" memberEnd="_qOmhopxJEemb3L5RebzWiw _qOOHIJxJEemb3L5RebzWiw">
+          <ownedEnd xmi:id="_qOmhopxJEemb3L5RebzWiw" name="" type="_qL6aAJxJEemb3L5RebzWiw" association="_qOmhoZxJEemb3L5RebzWiw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qOnIsZxJEemb3L5RebzWiw" name="" memberEnd="_qOnIspxJEemb3L5RebzWiw _qOS_oJxJEemb3L5RebzWiw">
+          <ownedEnd xmi:id="_qOnIspxJEemb3L5RebzWiw" name="" type="_qMr2EJxJEemb3L5RebzWiw" association="_qOnIsZxJEemb3L5RebzWiw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qOnvwZxJEemb3L5RebzWiw" name="" memberEnd="_qOnvwpxJEemb3L5RebzWiw _qOU00ZxJEemb3L5RebzWiw">
+          <ownedEnd xmi:id="_qOnvwpxJEemb3L5RebzWiw" name="" type="_qMr2EJxJEemb3L5RebzWiw" association="_qOnvwZxJEemb3L5RebzWiw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qOoW0ZxJEemb3L5RebzWiw" name="" memberEnd="_qOoW0pxJEemb3L5RebzWiw _qOWC8ZxJEemb3L5RebzWiw">
+          <ownedEnd xmi:id="_qOoW0pxJEemb3L5RebzWiw" name="" type="_qMr2EJxJEemb3L5RebzWiw" association="_qOoW0ZxJEemb3L5RebzWiw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qLXAYJxJEemb3L5RebzWiw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_qLXAYZxJEemb3L5RebzWiw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_qN1FkJxJEemb3L5RebzWiw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_qN1soZxJEemb3L5RebzWiw" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_qN_doJxJEemb3L5RebzWiw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_qN_doZxJEemb3L5RebzWiw" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_pyxhQJxJEemb3L5RebzWiw">
+      <eAnnotations xmi:id="_pyxhQZxJEemb3L5RebzWiw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_pyyIUJxJEemb3L5RebzWiw" base_Package="_ptGXEJxJEemb3L5RebzWiw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qL0TYZxJEemb3L5RebzWiw" base_Element="_qLzsUJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Annotations xmi:id="_qL06cJxJEemb3L5RebzWiw" base_Element="_qLzsUJxJEemb3L5RebzWiw">
+    <annotations xmi:id="_qL06cZxJEemb3L5RebzWiw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qL2IkJxJEemb3L5RebzWiw" base_Element="_qL06cpxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Annotations xmi:id="_qL2IkZxJEemb3L5RebzWiw" base_Element="_qL06cpxJEemb3L5RebzWiw">
+    <annotations xmi:id="_qL2IkpxJEemb3L5RebzWiw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qMCV0ZxJEemb3L5RebzWiw" base_Element="_qMBuxJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Annotations xmi:id="_qMC84JxJEemb3L5RebzWiw" base_Element="_qMBuxJxJEemb3L5RebzWiw">
+    <annotations xmi:id="_qMC84ZxJEemb3L5RebzWiw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qMDj8ZxJEemb3L5RebzWiw" base_Element="_qMC84pxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Annotations xmi:id="_qMELAJxJEemb3L5RebzWiw" base_Element="_qMC84pxJEemb3L5RebzWiw">
+    <annotations xmi:id="_qMEyEJxJEemb3L5RebzWiw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_qN1soJxJEemb3L5RebzWiw" base_Element="_qN1FkJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Reference xmi:id="_qN2TsJxJEemb3L5RebzWiw" base_Element="_qN1soZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Reference xmi:id="_qOAEsJxJEemb3L5RebzWiw" base_Element="_qN_doZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOGLUJxJEemb3L5RebzWiw" base_Element="_qOEWIJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOIAgJxJEemb3L5RebzWiw" base_Element="_qOHZcJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOJOoJxJEemb3L5RebzWiw" base_Element="_qOInkZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOKcwJxJEemb3L5RebzWiw" base_Element="_qOJ1sJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOLD0JxJEemb3L5RebzWiw" base_Element="_qOKcwZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOLq4JxJEemb3L5RebzWiw" base_Element="_qOLD0ZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOMR8JxJEemb3L5RebzWiw" base_Element="_qOLq4ZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qONgEJxJEemb3L5RebzWiw" base_Element="_qOMR8ZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOOuMJxJEemb3L5RebzWiw" base_Element="_qOOHIJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOQjYJxJEemb3L5RebzWiw" base_Element="_qOP8UZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qORKcJxJEemb3L5RebzWiw" base_Element="_qOQjYZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qORxgJxJEemb3L5RebzWiw" base_Element="_qORKcZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOS_oZxJEemb3L5RebzWiw" base_Element="_qOS_oJxJEemb3L5RebzWiw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_qOUNwJxJEemb3L5RebzWiw" name="getObservers" method="_qOcwoJxJEemb3L5RebzWiw">
+      <ownedParameter xmi:id="_qOUNwZxJEemb3L5RebzWiw" type="_qMoywJxJEemb3L5RebzWiw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qOUNwpxJEemb3L5RebzWiw" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Array xmi:id="_qOU00JxJEemb3L5RebzWiw" base_Element="_qOUNwJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOWC8JxJEemb3L5RebzWiw" base_Element="_qOU00ZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qOWqAJxJEemb3L5RebzWiw" base_Element="_qOWC8ZxJEemb3L5RebzWiw"/>
+  <uml:OpaqueBehavior xmi:id="_qOcwoJxJEemb3L5RebzWiw" name="getObservers" specification="_qOUNwJxJEemb3L5RebzWiw">
+    <ownedParameter xmi:id="_qOcwoZxJEemb3L5RebzWiw" type="_qMoywJxJEemb3L5RebzWiw" direction="return">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qOcwopxJEemb3L5RebzWiw" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>WeatherObserver obsArray[] = new WeatherObserver[observers.size()];
+		return observers.toArray(obsArray);
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_qOl6kJxJEemb3L5RebzWiw" base_Element="_qOkscJxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Reference xmi:id="_qOmhoJxJEemb3L5RebzWiw" base_Element="_qOl6kZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Reference xmi:id="_qOnIsJxJEemb3L5RebzWiw" base_Element="_qOmhoZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Reference xmi:id="_qOnvwJxJEemb3L5RebzWiw" base_Element="_qOnIsZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Reference xmi:id="_qOoW0JxJEemb3L5RebzWiw" base_Element="_qOnvwZxJEemb3L5RebzWiw"/>
+  <UMLLabProfile:Reference xmi:id="_qOo94JxJEemb3L5RebzWiw" base_Element="_qOoW0ZxJEemb3L5RebzWiw"/>
+</xmi:XMI>

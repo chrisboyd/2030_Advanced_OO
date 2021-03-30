@@ -1,0 +1,24 @@
+package test2;
+
+
+public class Utility2B {
+	
+	private Utility2B() {
+		
+	}
+	
+	public static String join(String s, String t, String sep) {
+		return s.concat(sep).concat(t);
+	}
+	
+	public static int distance(String s, String t) {
+		if (s.length() != t.length())
+			throw new IllegalArgumentException("strings different length");
+		
+		int diff = 0;
+		for (int i = 0; i < s.length(); i++) {
+			
+		}
+	}
+	
+}

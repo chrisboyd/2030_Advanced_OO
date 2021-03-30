@@ -1,0 +1,25 @@
+package test2;
+
+
+public class Utility2C {
+	
+	private Utility2C() {
+		
+	}
+	
+	public static char last(String s) {
+		return s.charAt(s.length());
+	}
+	
+	public static boolean areReversed(String s, String t) {
+		if (s.length() != t.length())
+			throw new IllegalArgumentException("Strings not same length");
+		
+		int j = s.length();
+		for (int i = 0; i <= j; i++) {
+			
+		}
+	}
+
+	
+}

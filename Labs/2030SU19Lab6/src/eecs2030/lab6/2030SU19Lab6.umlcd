@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ptyTkJxJEemb3L5RebzWiw">
+  <modelElement href="2030SU19Lab6.uml#_qLF6oJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSKzAZxJEemb3L5RebzWiw" targetItem="_qSPEeZxJEemb3L5RebzWiw" sourceItem="_qSKzAJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSLaEZxJEemb3L5RebzWiw" targetItem="_qSPEipxJEemb3L5RebzWiw" sourceItem="_qSLaEJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSMBIZxJEemb3L5RebzWiw" targetItem="_qSPEjZxJEemb3L5RebzWiw" sourceItem="_qSMBIJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSMoMZxJEemb3L5RebzWiw" targetItem="_qSPEkpxJEemb3L5RebzWiw" sourceItem="_qSMoMJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSMoM5xJEemb3L5RebzWiw" targetItem="_qSPEl5xJEemb3L5RebzWiw" sourceItem="_qSMoMpxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSNPQZxJEemb3L5RebzWiw" targetItem="_qSPEnJxJEemb3L5RebzWiw" sourceItem="_qSNPQJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qSPEcJxJEemb3L5RebzWiw" sourceAnchor="0.0,87.0" targetAnchor="316.0,32.0" target="_qS7oAJxJEemb3L5RebzWiw" source="_qSPEeZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOkscJxJEemb3L5RebzWiw"/>
+    <stereotypes xmi:id="_qSPEcZxJEemb3L5RebzWiw" name="Reference">
+      <modelElement href="2030SU19Lab6.uml#_qOl6kJxJEemb3L5RebzWiw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qSPEcpxJEemb3L5RebzWiw" text="">
+      <visualProperties xmi:id="_qv0YUJxJEemb3L5RebzWiw" position="-13.666666666666664,-17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qSPEc5xJEemb3L5RebzWiw" aggregationKind="NONE" name="">
+      <modelElement href="2030SU19Lab6.uml#_qOkscZxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qvzxQZxJEemb3L5RebzWiw" position="-76.71428571428572,-42.99999999999997"/>
+      <visibility xmi:id="_qSPEdJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSPEdZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qSPEdpxJEemb3L5RebzWiw" aggregationKind="NONE" name="station" navigable="true">
+      <modelElement href="2030SU19Lab6.uml#_qOHZcJxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv0YUZxJEemb3L5RebzWiw" position="13.0,2.0"/>
+      <stereotypes xmi:id="_x9xukJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOIAgJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSPEd5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSPEeJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qST88ZxJEemb3L5RebzWiw" targetItem="_qSXAQJxJEemb3L5RebzWiw" sourceItem="_qST88JxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qSUkAJxJEemb3L5RebzWiw" sourceAnchor="98.0,0.0" targetAnchor="0.0,68.0" target="_qSXAQJxJEemb3L5RebzWiw" source="_qS7oAJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOoW0ZxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_WYQ5xJEemb3L5RebzWiw" sourceY="-519" targetX="-1395"/>
+    <stereotypes xmi:id="_qSVyI5xJEemb3L5RebzWiw" name="Reference">
+      <modelElement href="2030SU19Lab6.uml#_qOo94JxJEemb3L5RebzWiw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qSVyIJxJEemb3L5RebzWiw" text="">
+      <visualProperties xmi:id="_qv6e8JxJEemb3L5RebzWiw" position="676.5,2.0000000000001137"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qSVyIZxJEemb3L5RebzWiw" aggregationKind="NONE" name="">
+      <modelElement href="2030SU19Lab6.uml#_qOoW0pxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv534JxJEemb3L5RebzWiw" position="2.0,-78.61538461538461"/>
+      <visibility xmi:id="_qSWZMZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSWZMJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qSVyIpxJEemb3L5RebzWiw" aggregationKind="NONE" name="pressSensors" navigable="true">
+      <modelElement href="2030SU19Lab6.uml#_qOWC8ZxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv6e8ZxJEemb3L5RebzWiw" position="-168.68750000000023,-43.0"/>
+      <stereotypes xmi:id="_qSWZNJxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOWqAJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSWZM5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSWZMpxJEemb3L5RebzWiw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSUkApxJEemb3L5RebzWiw" targetItem="_qSXATJxJEemb3L5RebzWiw" sourceItem="_qSUkAZxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSaDkZxJEemb3L5RebzWiw" targetItem="_qSb4yZxJEemb3L5RebzWiw" sourceItem="_qSaDkJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSaqoZxJEemb3L5RebzWiw" targetItem="_qSb40ZxJEemb3L5RebzWiw" sourceItem="_qSaqoJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qSb4wJxJEemb3L5RebzWiw" sourceAnchor="389.0,36.0" targetAnchor="149.0,174.0" target="_qTC8wJxJEemb3L5RebzWiw" source="_qSb4yZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOl6kZxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_VKI5xJEemb3L5RebzWiw" sourceX="211" targetY="525"/>
+    <stereotypes xmi:id="_qSb4wZxJEemb3L5RebzWiw" name="Reference">
+      <modelElement href="2030SU19Lab6.uml#_qOmhoJxJEemb3L5RebzWiw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qSb4wpxJEemb3L5RebzWiw" text="">
+      <visualProperties xmi:id="_qv1mcJxJEemb3L5RebzWiw" position="-221.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qSb4w5xJEemb3L5RebzWiw" aggregationKind="NONE" name="">
+      <modelElement href="2030SU19Lab6.uml#_qOl6kpxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv0_YJxJEemb3L5RebzWiw" position="44.0,-9.0"/>
+      <visibility xmi:id="_qSb4xJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSb4xZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qSb4xpxJEemb3L5RebzWiw" aggregationKind="NONE" name="failed" navigable="true">
+      <modelElement href="2030SU19Lab6.uml#_qOJ1sJxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv1mcZxJEemb3L5RebzWiw" position="-252.0,516.0"/>
+      <stereotypes xmi:id="_x92nEJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOKcwJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSb4x5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSb4yJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSeVAZxJEemb3L5RebzWiw" targetItem="_qSimcZxJEemb3L5RebzWiw" sourceItem="_qSeVAJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qSeVApxJEemb3L5RebzWiw" sourceAnchor="0.0,116.0" targetAnchor="158.0,0.0" target="_qS7oAJxJEemb3L5RebzWiw" source="_qSimcZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOmhoZxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_VxMJxJEemb3L5RebzWiw" sourceX="-593" targetY="-103"/>
+    <stereotypes xmi:id="_qShYU5xJEemb3L5RebzWiw" name="Reference">
+      <modelElement href="2030SU19Lab6.uml#_qOnIsJxJEemb3L5RebzWiw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qShYUJxJEemb3L5RebzWiw" text="">
+      <visualProperties xmi:id="_qv20kJxJEemb3L5RebzWiw" position="41.0,0.5000000000000284"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qShYUZxJEemb3L5RebzWiw" aggregationKind="NONE" name="">
+      <modelElement href="2030SU19Lab6.uml#_qOmhopxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv2NgJxJEemb3L5RebzWiw" position="-51.0625,1.5"/>
+      <visibility xmi:id="_qSh_YZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSh_YJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qShYUpxJEemb3L5RebzWiw" aggregationKind="NONE" name="station" navigable="true">
+      <modelElement href="2030SU19Lab6.uml#_qOOHIJxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv20kZxJEemb3L5RebzWiw" position="1.0,-62.499999999999915"/>
+      <stereotypes xmi:id="_x931MJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOOuMJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSh_Y5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSh_YpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSe8EZxJEemb3L5RebzWiw" targetItem="_qSimjZxJEemb3L5RebzWiw" sourceItem="_qSe8EJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSe8E5xJEemb3L5RebzWiw" targetItem="_qSimkJxJEemb3L5RebzWiw" sourceItem="_qSe8EpxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSfjIZxJEemb3L5RebzWiw" targetItem="_qSimlZxJEemb3L5RebzWiw" sourceItem="_qSfjIJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSfjI5xJEemb3L5RebzWiw" targetItem="_qSimmpxJEemb3L5RebzWiw" sourceItem="_qSfjIpxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSgKMZxJEemb3L5RebzWiw" targetItem="_qSimn5xJEemb3L5RebzWiw" sourceItem="_qSgKMJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSgKM5xJEemb3L5RebzWiw" targetItem="_qSimpJxJEemb3L5RebzWiw" sourceItem="_qSgKMpxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSne8ZxJEemb3L5RebzWiw" targetItem="_qStlkJxJEemb3L5RebzWiw" sourceItem="_qSne8JxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qSoGAJxJEemb3L5RebzWiw" sourceAnchor="128.0,0.0" targetAnchor="0.0,68.0" target="_qStlkJxJEemb3L5RebzWiw" source="_qS7oAJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOnvwZxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_WYQpxJEemb3L5RebzWiw" sourceY="-301" targetX="-1361"/>
+    <stereotypes xmi:id="_qSpUIpxJEemb3L5RebzWiw" name="Reference">
+      <modelElement href="2030SU19Lab6.uml#_qOoW0JxJEemb3L5RebzWiw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qSotEJxJEemb3L5RebzWiw" text="">
+      <visualProperties xmi:id="_qv5Q0JxJEemb3L5RebzWiw" position="659.5,-17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qSpUIJxJEemb3L5RebzWiw" aggregationKind="NONE" name="">
+      <modelElement href="2030SU19Lab6.uml#_qOnvwpxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv4pwJxJEemb3L5RebzWiw" position="2.0,-74.25"/>
+      <visibility xmi:id="_qSp7MZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSp7MJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qSpUIZxJEemb3L5RebzWiw" aggregationKind="NONE" name="tempSensors" navigable="true">
+      <modelElement href="2030SU19Lab6.uml#_qOU00ZxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv5Q0ZxJEemb3L5RebzWiw" position="-163.75,-42.999999999999886"/>
+      <stereotypes xmi:id="_qSp7NJxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOWC8JxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSp7M5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSp7MpxJEemb3L5RebzWiw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qSoGAZxJEemb3L5RebzWiw" sourceAnchor="378.0,68.0" targetAnchor="0.0,87.0" superClass="_qTC8wJxJEemb3L5RebzWiw" subClass="_qStlkJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qNzQYJxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_VxM5xJEemb3L5RebzWiw" sourceX="30" targetX="-30" targetY="428"/>
+    <bendpoints xmi:id="_v_WYQJxJEemb3L5RebzWiw" sourceX="30" sourceY="-428" targetX="-30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSoGA5xJEemb3L5RebzWiw" targetItem="_qStlnJxJEemb3L5RebzWiw" sourceItem="_qSoGApxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSp7NpxJEemb3L5RebzWiw" targetItem="_qTC8wJxJEemb3L5RebzWiw" sourceItem="_qSp7NZxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qSqiQJxJEemb3L5RebzWiw" sourceAnchor="340.0,68.0" targetAnchor="0.0,87.0" superClass="_qTC8wJxJEemb3L5RebzWiw" subClass="_qSXAQJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qNuX4JxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_VKIZxJEemb3L5RebzWiw" sourceX="64" targetX="-30" targetY="210"/>
+    <bendpoints xmi:id="_v_VKIpxJEemb3L5RebzWiw" sourceX="64" sourceY="-210" targetX="-30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSrJUZxJEemb3L5RebzWiw" targetItem="_qTC8zZxJEemb3L5RebzWiw" sourceItem="_qSrJUJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSrJU5xJEemb3L5RebzWiw" targetItem="_qTC81pxJEemb3L5RebzWiw" sourceItem="_qSrJUpxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSrwYJxJEemb3L5RebzWiw" targetItem="_qTC825xJEemb3L5RebzWiw" sourceItem="_qSrJVJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSrwYpxJEemb3L5RebzWiw" targetItem="_qTC84JxJEemb3L5RebzWiw" sourceItem="_qSrwYZxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSrwZJxJEemb3L5RebzWiw" targetItem="_qTC85pxJEemb3L5RebzWiw" sourceItem="_qSrwY5xJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSwo4ZxJEemb3L5RebzWiw" targetItem="_qS0TQJxJEemb3L5RebzWiw" sourceItem="_qSwo4JxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qSxP8JxJEemb3L5RebzWiw" sourceAnchor="295.0,87.0" targetAnchor="0.0,46.0" superClass="_qS0TQJxJEemb3L5RebzWiw" subClass="_qSPEeZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qNtw0JxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_UjEJxJEemb3L5RebzWiw" sourceX="374" targetX="-28" targetY="187"/>
+    <bendpoints xmi:id="_v_VKIJxJEemb3L5RebzWiw" sourceX="374" sourceY="-187" targetX="-28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qSxP8ZxJEemb3L5RebzWiw" sourceAnchor="295.0,124.0" targetAnchor="0.0,46.0" superClass="_qS0TQJxJEemb3L5RebzWiw" subClass="_qSimcZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qNxbMZxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_VxMZxJEemb3L5RebzWiw" sourceX="27" targetX="-28" targetY="60"/>
+    <bendpoints xmi:id="_v_VxMpxJEemb3L5RebzWiw" sourceX="27" sourceY="-60" targetX="-28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qSxP8pxJEemb3L5RebzWiw" sourceAnchor="316.0,134.0" targetAnchor="147.0,91.0" target="_qS0TQJxJEemb3L5RebzWiw" source="_qS7oAJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOnIsZxJEemb3L5RebzWiw"/>
+    <bendpoints xmi:id="_v_WYQZxJEemb3L5RebzWiw" sourceX="932" targetY="244"/>
+    <stereotypes xmi:id="_qSzFI5xJEemb3L5RebzWiw" name="Reference">
+      <modelElement href="2030SU19Lab6.uml#_qOnvwJxJEemb3L5RebzWiw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qSzFIJxJEemb3L5RebzWiw" text="">
+      <visualProperties xmi:id="_qv4CsJxJEemb3L5RebzWiw" position="-47.5,-56.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qSzFIZxJEemb3L5RebzWiw" aggregationKind="NONE" name="">
+      <modelElement href="2030SU19Lab6.uml#_qOnIspxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv3boJxJEemb3L5RebzWiw" position="58.28125,-43.0"/>
+      <visibility xmi:id="_qSzsMZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSzsMJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qSzFIpxJEemb3L5RebzWiw" aggregationKind="NONE" name="observers" navigable="true">
+      <modelElement href="2030SU19Lab6.uml#_qOS_oJxJEemb3L5RebzWiw"/>
+      <visualProperties xmi:id="_qv4CsZxJEemb3L5RebzWiw" position="2.5,34.50000000000006"/>
+      <stereotypes xmi:id="_qSzsNJxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOS_oZxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSzsM5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSzsMpxJEemb3L5RebzWiw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSx3AJxJEemb3L5RebzWiw" targetItem="_qS0TQ5xJEemb3L5RebzWiw" sourceItem="_qSxP85xJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSx3ApxJEemb3L5RebzWiw" targetItem="_qS0TRpxJEemb3L5RebzWiw" sourceItem="_qSx3AZxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qSyeEZxJEemb3L5RebzWiw" targetItem="_qS0TS5xJEemb3L5RebzWiw" sourceItem="_qSyeEJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS3WkZxJEemb3L5RebzWiw" targetItem="_qS7oAJxJEemb3L5RebzWiw" sourceItem="_qS3WkJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS39oZxJEemb3L5RebzWiw" targetItem="_qS8PHpxJEemb3L5RebzWiw" sourceItem="_qS39oJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS39o5xJEemb3L5RebzWiw" targetItem="_qS8PJJxJEemb3L5RebzWiw" sourceItem="_qS39opxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS4ksZxJEemb3L5RebzWiw" targetItem="_qS8PJ5xJEemb3L5RebzWiw" sourceItem="_qS4ksJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS4ks5xJEemb3L5RebzWiw" targetItem="_qS8PLJxJEemb3L5RebzWiw" sourceItem="_qS4kspxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS5LwZxJEemb3L5RebzWiw" targetItem="_qS8PMZxJEemb3L5RebzWiw" sourceItem="_qS5LwJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS5Lw5xJEemb3L5RebzWiw" targetItem="_qS8PN5xJEemb3L5RebzWiw" sourceItem="_qS5LwpxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS5LxZxJEemb3L5RebzWiw" targetItem="_qS8PPZxJEemb3L5RebzWiw" sourceItem="_qS5LxJxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS5y0ZxJEemb3L5RebzWiw" targetItem="_qS8PQ5xJEemb3L5RebzWiw" sourceItem="_qS5y0JxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS5y05xJEemb3L5RebzWiw" targetItem="_qS8PSZxJEemb3L5RebzWiw" sourceItem="_qS5y0pxJEemb3L5RebzWiw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qS6Z4ZxJEemb3L5RebzWiw" targetItem="_qS8PT5xJEemb3L5RebzWiw" sourceItem="_qS6Z4JxJEemb3L5RebzWiw"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSKzAJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSKzAZxJEemb3L5RebzWiw" text="A weather forecast app determines if the pressure readings from its&#xA;subscribed weather station, if any, indicate it is likely to rain due to a&#xA;reduction on the pressure level." item="_qSPEeZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfM4JxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSLaEJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSLaEZxJEemb3L5RebzWiw" text="Update the reading of this weather observer. Update the current and last&#xA;&#x9; * readings of pressure." item="_qSPEipxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfM4ZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSMBIJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSMBIZxJEemb3L5RebzWiw" text="Get the weather station to which the current weather observer is subscribed&#xA;&#x9; * to.&#xA;&#x9; * &#xA;&#x9; * @return the weather station to which the current weather observer is&#xA;&#x9; *         subscribed to" item="_qSPEjZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfM4pxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSMoMJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSMoMZxJEemb3L5RebzWiw" text="Get the pressure level read from the last update.&#xA;&#x9; * &#xA;&#x9; * @return pressure level read from the last update" item="_qSPEkpxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfM5JxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSMoMpxJEemb3L5RebzWiw" sourceConnectionVisual="_qSMoM5xJEemb3L5RebzWiw" text="Based on the last and second last readings of the pressure level, it is&#xA;&#x9; * determined as likely to rain if there is a strict reduction on the pressure&#xA;&#x9; * level; otherwise it is unlikely to rain.&#xA;&#x9; * &#xA;&#x9; * @return whether or not it is likely to rain." item="_qSPEl5xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfM5ZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSNPQJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSNPQZxJEemb3L5RebzWiw" text="Subscribe the current weather observer to the input weather station ws.&#xA;&#x9; * &#xA;&#x9; * @param ws a weather station" item="_qSPEnJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfM45xJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qST88JxJEemb3L5RebzWiw" sourceConnectionVisual="_qST88ZxJEemb3L5RebzWiw" text="Pressure Sensor. The default rate of failure is 0.0025&#xD;&#xA; *" item="_qSXAQJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfM5pxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSUkAZxJEemb3L5RebzWiw" sourceConnectionVisual="_qSUkApxJEemb3L5RebzWiw" text="Initialize the pressure sensor with the given initial pressure.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param press the initial pressure" item="_qSXATJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz8JxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSaDkJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSaDkZxJEemb3L5RebzWiw" text="Custom exception thrown when a weather sensor fails to report a measurement.&#xD;&#xA;It keeps a reference to the failed sensor.&#xD;&#xA; *" item="_qSb4yZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz8ZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSaqoJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSaqoZxJEemb3L5RebzWiw" text="Returns a reference to the failed sensor&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return a reference to the failed sensor" item="_qSb40ZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz8pxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSeVAJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSeVAZxJEemb3L5RebzWiw" text="A weather statistics app calculates the minimum, maximum, and average&#xA;temperature read so far from its subscribed weather station, if any." item="_qSimcZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz85xJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSe8EJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSe8EZxJEemb3L5RebzWiw" text="Update the reading of this weather observer. Update the current temperature&#xA;&#x9; * and the maximum, minimum, and average accordingly." item="_qSimjZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz9JxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSe8EpxJEemb3L5RebzWiw" sourceConnectionVisual="_qSe8E5xJEemb3L5RebzWiw" text="Get the weather station to which the current weather observer is subscribed&#xA;&#x9; * to.&#xA;&#x9; * &#xA;&#x9; * @return the weather station to which the current weather observer is&#xA;&#x9; *         subscribed to" item="_qSimkJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz9ZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSfjIJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSfjIZxJEemb3L5RebzWiw" text="Get the minimum temperature based on the readings so far.&#xA;&#x9; * &#xA;&#x9; * @return minimum temperature based on the readings so far" item="_qSimlZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz95xJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSfjIpxJEemb3L5RebzWiw" sourceConnectionVisual="_qSfjI5xJEemb3L5RebzWiw" text="Get the maximum temperature based on the readings so far.&#xA;&#x9; * &#xA;&#x9; * @return maximum temperature based on the readings so far" item="_qSimmpxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz-JxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSgKMJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSgKMZxJEemb3L5RebzWiw" text="Get the average temperature based on the readings so far.&#xA;&#x9; * &#xA;&#x9; * @return average temperature based on the readings so far" item="_qSimn5xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz-ZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSgKMpxJEemb3L5RebzWiw" sourceConnectionVisual="_qSgKM5xJEemb3L5RebzWiw" text="Subscribe the current weather observer to the input weather station ws.&#xA;&#x9; * &#xA;&#x9; * @param ws a weather station" item="_qSimpJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz9pxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSne8JxJEemb3L5RebzWiw" sourceConnectionVisual="_qSne8ZxJEemb3L5RebzWiw" text="Temperature Sensor. The default rate of failure is 0.001&#xD;&#xA; *" item="_qStlkJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOfz-pxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSoGApxJEemb3L5RebzWiw" sourceConnectionVisual="_qSoGA5xJEemb3L5RebzWiw" text="Initialize the temperature sensor with the given initial temperature.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param temp the initial temperature" item="_qStlnJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbAJxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSp7NZxJEemb3L5RebzWiw" sourceConnectionVisual="_qSp7NpxJEemb3L5RebzWiw" text="This is an abstract class to represent a weather sensor. Weather sensors&#xD;&#xA;report weather parameters to a weather station. Sensor readings are pulled by&#xD;&#xA;calling the method read. Each sensor has a fixed failure rate that switches&#xD;&#xA;the sensor state to damaged and needs to be fixed. A damaged sensor will&#xD;&#xA;throw an exception when trying to get its reading.&#xD;&#xA; *" item="_qTC8wJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbAZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSrJUJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSrJUZxJEemb3L5RebzWiw" text="Initialize the sensor with the given failure rate.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param failureRate" item="_qTC8zZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbApxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSrJUpxJEemb3L5RebzWiw" sourceConnectionVisual="_qSrJU5xJEemb3L5RebzWiw" text="Reads the measurement from the sensor and accounts for the sensor failures. A&#xD;&#xA;&#x9; * random number is utilized to simulate the probability of failures. Once the&#xD;&#xA;&#x9; * probability is less than the failure rate the sensor state is switched to&#xD;&#xA;&#x9; * damaged.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return the measurement of the sensor.&#xD;&#xA;&#x9; * @throws SensorFailedException if the sensor is damaged." item="_qTC81pxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbA5xJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSrJVJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSrwYJxJEemb3L5RebzWiw" text="Get the measurement of the sensor regardless of its state.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return the measurement of the sensor regardless of its state." item="_qTC825xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbBJxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSrwYZxJEemb3L5RebzWiw" sourceConnectionVisual="_qSrwYpxJEemb3L5RebzWiw" text="Sets the measurement value of the sensor regardless of the state.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param value the value of the measurement" item="_qTC84JxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbBZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSrwY5xJEemb3L5RebzWiw" sourceConnectionVisual="_qSrwZJxJEemb3L5RebzWiw" text="Fixes a damaged sensor" item="_qTC85pxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbBpxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSwo4JxJEemb3L5RebzWiw" sourceConnectionVisual="_qSwo4ZxJEemb3L5RebzWiw" text="A weather observer should be subscribed to some weather station and be kept&#xD;&#xA;up to date whenever an update on the measures of weather parameters occurs.&#xD;&#xA;&#xD;&#xA;DO NOT MODIFY THIS CLASS." item="_qS0TQJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbB5xJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSxP85xJEemb3L5RebzWiw" sourceConnectionVisual="_qSx3AJxJEemb3L5RebzWiw" text="Update the reading of this weather observer." item="_qS0TQ5xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbCJxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSx3AZxJEemb3L5RebzWiw" sourceConnectionVisual="_qSx3ApxJEemb3L5RebzWiw" text="Get the weather station to which the current weather observer is subscribed&#xD;&#xA;&#x9; * to.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return the weather station to which the current weather observer is&#xD;&#xA;&#x9; *         subscribed to" item="_qS0TRpxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbCZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qSyeEJxJEemb3L5RebzWiw" sourceConnectionVisual="_qSyeEZxJEemb3L5RebzWiw" text="Subscribe the current weather observer to the input weather station ws.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param ws a weather station" item="_qS0TS5xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOgbCpxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS3WkJxJEemb3L5RebzWiw" sourceConnectionVisual="_qS3WkZxJEemb3L5RebzWiw" text="A weather station contains sets of weather sensors to measure various weather&#xA;parameters and publishes the readings to a list of subscribed weather&#xA;observers.&#xA;&#xA;The weather station pulls the readings from the sensors. Usually there is a&#xA;set of redundant sensors for each weather parameter such as temperature and&#xA;pressure. The value reported by the weather station is the average consensus&#xA;of the readings, i.e. the average of the available measurements. In case any&#xA;sensor fails, its reading is eliminated from the average and this sensor will&#xA;be fixed. The weather station notifies the subscribed observers for any&#xA;updates in the weather parameters.&#xA; *" item="_qS7oAJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCEJxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS39oJxJEemb3L5RebzWiw" sourceConnectionVisual="_qS39oZxJEemb3L5RebzWiw" text="Initialize a new weather station with no sensors installed.&#xA;&#x9; *" item="_qS8PHpxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCEZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS39opxJEemb3L5RebzWiw" sourceConnectionVisual="_qS39o5xJEemb3L5RebzWiw" text="Publish the latest readings of weather data to all subscribed observers. That&#xA;&#x9; * is, perform an update on each subscribed observer." item="_qS8PJJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCFJxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS4ksJxJEemb3L5RebzWiw" sourceConnectionVisual="_qS4ksZxJEemb3L5RebzWiw" text="Get the consensus of temperature measurements.&#xA;&#x9; * &#xA;&#x9; * @return latest temperature measure" item="_qS8PJ5xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCGZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS4kspxJEemb3L5RebzWiw" sourceConnectionVisual="_qS4ks5xJEemb3L5RebzWiw" text="Get the consensus of pressure measurements.&#xA;&#x9; * &#xA;&#x9; * @return latest pressure measure" item="_qS8PLJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCGpxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS5LwJxJEemb3L5RebzWiw" sourceConnectionVisual="_qS5LwZxJEemb3L5RebzWiw" text="Subscribe the input weather observer o as one of the observers of the current&#xA;&#x9; * weather station.&#xA;&#x9; * &#xA;&#x9; * @param o a weather observer" item="_qS8PMZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCEpxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS5LwpxJEemb3L5RebzWiw" sourceConnectionVisual="_qS5Lw5xJEemb3L5RebzWiw" text="Unsubscribe the input weather observer o from the list of observers of the&#xA;&#x9; * current weather station. Assume that the input o is an already-subscribed&#xA;&#x9; * observer.&#xA;&#x9; * &#xA;&#x9; * @param o a weather observer" item="_qS8PN5xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCE5xJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS5LxJxJEemb3L5RebzWiw" sourceConnectionVisual="_qS5LxZxJEemb3L5RebzWiw" text="Adds temperature sensor to the corresponding sensor list&#xA;&#x9; * &#xA;&#x9; * @param ts temperature sensor to be added" item="_qS8PPZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCFZxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS5y0JxJEemb3L5RebzWiw" sourceConnectionVisual="_qS5y0ZxJEemb3L5RebzWiw" text="Adds pressure sensor to the corresponding sensor list&#xA;&#x9; * &#xA;&#x9; * @param ps pressure sensor to be added" item="_qS8PQ5xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCFpxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS5y0pxJEemb3L5RebzWiw" sourceConnectionVisual="_qS5y05xJEemb3L5RebzWiw" text="Removes the temperature sensor from the corresponding sensor list&#xA;&#x9; * &#xA;&#x9; * @param ts temperature sensor to be removed" item="_qS8PSZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCF5xJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qS6Z4JxJEemb3L5RebzWiw" sourceConnectionVisual="_qS6Z4ZxJEemb3L5RebzWiw" text="Removes the pressure sensor from the corresponding sensor list&#xA;&#x9; * &#xA;&#x9; * @param ps pressure sensor to be removed" item="_qS8PT5xJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qOhCGJxJEemb3L5RebzWiw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qSPEeZxJEemb3L5RebzWiw" comments="_qSKzAJxJEemb3L5RebzWiw" targetConnectionVisual="_qSKzAZxJEemb3L5RebzWiw" name="ForecastApp" associationsOut="_qSPEcJxJEemb3L5RebzWiw" generalizations="_qSxP8JxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qLqiYJxJEemb3L5RebzWiw"/>
+    <visualProperties xmi:id="_qSPEepxJEemb3L5RebzWiw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qSPEe5xJEemb3L5RebzWiw" label="+"/>
+    <attributes xmi:id="_qSPEfJxJEemb3L5RebzWiw" defaultValue="0.0" name="currPressure">
+      <modelElement href="2030SU19Lab6.uml#_qOEWIJxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qSPEfZxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOGLUJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSPEfpxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSPEf5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSPEgJxJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qSPEgZxJEemb3L5RebzWiw" defaultValue="0.0" name="lastPressure">
+      <modelElement href="2030SU19Lab6.uml#_qOGyYJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSPEgpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSPEg5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSPEhJxJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qSPEhZxJEemb3L5RebzWiw" defaultValue="null" name="station">
+      <modelElement href="2030SU19Lab6.uml#_qOHZcJxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_x-hVcJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-ncEJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-2soJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_qSPEh5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSPEiJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSPEiZxJEemb3L5RebzWiw" name="WeatherStation">
+        <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qSPEipxJEemb3L5RebzWiw" comments="_qSLaEJxJEemb3L5RebzWiw" targetConnectionVisual="_qSLaEZxJEemb3L5RebzWiw" name="update">
+      <modelElement href="2030SU19Lab6.uml#_qLs-oZxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSPEi5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSPEjJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qSPEjZxJEemb3L5RebzWiw" comments="_qSMBIJxJEemb3L5RebzWiw" targetConnectionVisual="_qSMBIZxJEemb3L5RebzWiw" name="getWeatherStation">
+      <modelElement href="2030SU19Lab6.uml#_qLtlsJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSPEjpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSPEj5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSPEkJxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qNtJwJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSPEkZxJEemb3L5RebzWiw" name="WeatherStation">
+          <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSPEkpxJEemb3L5RebzWiw" comments="_qSMoMJxJEemb3L5RebzWiw" targetConnectionVisual="_qSMoMZxJEemb3L5RebzWiw" name="getCurrentPressure">
+      <modelElement href="2030SU19Lab6.uml#_qLuMwJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSPEk5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSPElJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSPElZxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qLuz0JxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSPElpxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSPEl5xJEemb3L5RebzWiw" comments="_qSMoMpxJEemb3L5RebzWiw" targetConnectionVisual="_qSMoM5xJEemb3L5RebzWiw" name="isLikelyToRain">
+      <modelElement href="2030SU19Lab6.uml#_qLuz0ZxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSPEmJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSPEmZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSPEmpxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qLva4JxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSPEm5xJEemb3L5RebzWiw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSPEnJxJEemb3L5RebzWiw" comments="_qSNPQJxJEemb3L5RebzWiw" targetConnectionVisual="_qSNPQZxJEemb3L5RebzWiw" name="setWeatherStation">
+      <modelElement href="2030SU19Lab6.uml#_qNtJwZxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSPEnZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSPEnpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qSPEn5xJEemb3L5RebzWiw" name="ws">
+        <modelElement href="2030SU19Lab6.uml#_qNtJwpxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qSPEoJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qSPEoZxJEemb3L5RebzWiw" name="WeatherStation">
+          <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qSXAQJxJEemb3L5RebzWiw" comments="_qST88JxJEemb3L5RebzWiw" targetConnectionVisual="_qST88ZxJEemb3L5RebzWiw" name="PressureSensor" associationsIn="_qSUkAJxJEemb3L5RebzWiw" generalizations="_qSqiQJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qLxQEJxJEemb3L5RebzWiw"/>
+    <visualProperties xmi:id="_qSXAQZxJEemb3L5RebzWiw" position="1119.0,-502.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qSXAQpxJEemb3L5RebzWiw" label="+"/>
+    <attributes xmi:id="_qSXAQ5xJEemb3L5RebzWiw" defaultValue="0.0025" name="FAILURE_RATE" staticAttribute="true">
+      <modelElement href="2030SU19Lab6.uml#_qOIAgZxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSXARJxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSXARZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSXARpxJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qSXAR5xJEemb3L5RebzWiw" name="pressure">
+      <modelElement href="2030SU19Lab6.uml#_qOInkZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qSXASJxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOJOoJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSXASZxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSXASpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSXAS5xJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qSXATJxJEemb3L5RebzWiw" comments="_qSUkAZxJEemb3L5RebzWiw" targetConnectionVisual="_qSUkApxJEemb3L5RebzWiw" name="PressureSensor">
+      <modelElement href="2030SU19Lab6.uml#_qLzFQJxJEemb3L5RebzWiw"/>
+      <keywords xmi:id="_qSXATZxJEemb3L5RebzWiw" keyword="create"/>
+      <visibility xmi:id="_qSXATpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSXAT5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSXAUJxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qLzFRJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSXAUZxJEemb3L5RebzWiw" name="PressureSensor">
+          <modelElement href="2030SU19Lab6.uml#_qLxQEJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qSXAUpxJEemb3L5RebzWiw" name="press">
+        <modelElement href="2030SU19Lab6.uml#_qLzFQZxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qSXAU5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qSXAVJxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qSXAVZxJEemb3L5RebzWiw" name="get">
+      <modelElement href="2030SU19Lab6.uml#_qLzsUJxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qSXAVpxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qL0TYZxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qSXAV5xJEemb3L5RebzWiw" name="Annotations">
+        <modelElement href="2030SU19Lab6.uml#_qL06cJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSXAWJxJEemb3L5RebzWiw" label="#"/>
+      <cardinality xmi:id="_qSXAWZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSXAWpxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qL0TYJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSXAW5xJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSXAXJxJEemb3L5RebzWiw" name="set">
+      <modelElement href="2030SU19Lab6.uml#_qL06cpxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qSXAXZxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qL2IkJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qSXAXpxJEemb3L5RebzWiw" name="Annotations">
+        <modelElement href="2030SU19Lab6.uml#_qL2IkZxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSXAX5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSXAYJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qSXAYZxJEemb3L5RebzWiw" name="value">
+        <modelElement href="2030SU19Lab6.uml#_qL1hgJxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qSXAYpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qSXAY5xJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qSb4yZxJEemb3L5RebzWiw" comments="_qSaDkJxJEemb3L5RebzWiw" targetConnectionVisual="_qSaDkZxJEemb3L5RebzWiw" name="SensorFailedException" associationsOut="_qSb4wJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qL3WsJxJEemb3L5RebzWiw"/>
+    <visualProperties xmi:id="_qSb4ypxJEemb3L5RebzWiw" position="1102.0,-68.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qSb4y5xJEemb3L5RebzWiw" label="+"/>
+    <attributes xmi:id="_qSb4zJxJEemb3L5RebzWiw" name="failed">
+      <modelElement href="2030SU19Lab6.uml#_qOJ1sJxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_x-rtgJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-s7oJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-36wJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_qSb4zpxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSb4z5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSb40JxJEemb3L5RebzWiw" name="WSensor">
+        <modelElement href="2030SU19Lab6.uml#_qMFZIJxJEemb3L5RebzWiw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qSb40ZxJEemb3L5RebzWiw" comments="_qSaqoJxJEemb3L5RebzWiw" targetConnectionVisual="_qSaqoZxJEemb3L5RebzWiw" name="getSensor">
+      <modelElement href="2030SU19Lab6.uml#_qL4k0JxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSb40pxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSb405xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSb41JxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qNwNEJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSb41ZxJEemb3L5RebzWiw" name="WSensor">
+          <modelElement href="2030SU19Lab6.uml#_qMFZIJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSb41pxJEemb3L5RebzWiw" name="SensorFailedException">
+      <modelElement href="2030SU19Lab6.uml#_qNvmAJxJEemb3L5RebzWiw"/>
+      <keywords xmi:id="_qSb415xJEemb3L5RebzWiw" keyword="create"/>
+      <visibility xmi:id="_qSb42JxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSb42ZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSb42pxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qNvmBJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSb425xJEemb3L5RebzWiw" name="SensorFailedException">
+          <modelElement href="2030SU19Lab6.uml#_qL3WsJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qSb43JxJEemb3L5RebzWiw" name="s">
+        <modelElement href="2030SU19Lab6.uml#_qNvmAZxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qSb43ZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qSb43pxJEemb3L5RebzWiw" name="WSensor">
+          <modelElement href="2030SU19Lab6.uml#_qMFZIJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qSimcZxJEemb3L5RebzWiw" comments="_qSeVAJxJEemb3L5RebzWiw" targetConnectionVisual="_qSeVAZxJEemb3L5RebzWiw" name="StatisticsApp" associationsOut="_qSeVApxJEemb3L5RebzWiw" generalizations="_qSxP8ZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qL6aAJxJEemb3L5RebzWiw"/>
+    <visualProperties xmi:id="_qSimcpxJEemb3L5RebzWiw" position="377.0,-134.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qSimc5xJEemb3L5RebzWiw" label="+"/>
+    <attributes xmi:id="_qSimdJxJEemb3L5RebzWiw" defaultValue="Double.NaN" name="max">
+      <modelElement href="2030SU19Lab6.uml#_qOKcwZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qSimdZxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOLD0JxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSimdpxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSimd5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSimeJxJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qSimeZxJEemb3L5RebzWiw" defaultValue="Double.NaN" name="min">
+      <modelElement href="2030SU19Lab6.uml#_qOLD0ZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qSimepxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOLq4JxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSime5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSimfJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSimfZxJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qSimfpxJEemb3L5RebzWiw" defaultValue="0.0" name="total">
+      <modelElement href="2030SU19Lab6.uml#_qOLq4ZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qSimf5xJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOMR8JxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSimgJxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSimgZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSimgpxJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qSimg5xJEemb3L5RebzWiw" defaultValue="0" name="readings">
+      <modelElement href="2030SU19Lab6.uml#_qOMR8ZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qSimhJxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qONgEJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qSimhZxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSimhpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSimh5xJEemb3L5RebzWiw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qSimiJxJEemb3L5RebzWiw" defaultValue="null" name="station">
+      <modelElement href="2030SU19Lab6.uml#_qOOHIJxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_x-uJwJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-vX4J0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-6XAJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_qSimipxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qSimi5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qSimjJxJEemb3L5RebzWiw" name="WeatherStation">
+        <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qSimjZxJEemb3L5RebzWiw" comments="_qSe8EJxJEemb3L5RebzWiw" targetConnectionVisual="_qSe8EZxJEemb3L5RebzWiw" name="update">
+      <modelElement href="2030SU19Lab6.uml#_qL7oIJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSimjpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSimj5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qSimkJxJEemb3L5RebzWiw" comments="_qSe8EpxJEemb3L5RebzWiw" targetConnectionVisual="_qSe8E5xJEemb3L5RebzWiw" name="getWeatherStation">
+      <modelElement href="2030SU19Lab6.uml#_qL8PMJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSimkZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSimkpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSimk5xJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qNw0IJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSimlJxJEemb3L5RebzWiw" name="WeatherStation">
+          <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSimlZxJEemb3L5RebzWiw" comments="_qSfjIJxJEemb3L5RebzWiw" targetConnectionVisual="_qSfjIZxJEemb3L5RebzWiw" name="getMinTemperature">
+      <modelElement href="2030SU19Lab6.uml#_qL82QJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSimlpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSiml5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSimmJxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qL82QZxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSimmZxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSimmpxJEemb3L5RebzWiw" comments="_qSfjIpxJEemb3L5RebzWiw" targetConnectionVisual="_qSfjI5xJEemb3L5RebzWiw" name="getMaxTemperature">
+      <modelElement href="2030SU19Lab6.uml#_qL9dUJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSimm5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSimnJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSimnZxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qL9dUZxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSimnpxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSimn5xJEemb3L5RebzWiw" comments="_qSgKMJxJEemb3L5RebzWiw" targetConnectionVisual="_qSgKMZxJEemb3L5RebzWiw" name="getAverageTemperature">
+      <modelElement href="2030SU19Lab6.uml#_qL9dUpxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSimoJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSimoZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qSimopxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qL-EYJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qSimo5xJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qSimpJxJEemb3L5RebzWiw" comments="_qSgKMpxJEemb3L5RebzWiw" targetConnectionVisual="_qSgKM5xJEemb3L5RebzWiw" name="setWeatherStation">
+      <modelElement href="2030SU19Lab6.uml#_qNw0IZxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qSimpZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qSimppxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qSimp5xJEemb3L5RebzWiw" name="ws">
+        <modelElement href="2030SU19Lab6.uml#_qNxbMJxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qSimqJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qSimqZxJEemb3L5RebzWiw" name="WeatherStation">
+          <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qStlkJxJEemb3L5RebzWiw" comments="_qSne8JxJEemb3L5RebzWiw" targetConnectionVisual="_qSne8ZxJEemb3L5RebzWiw" name="TemperatureSensor" associationsIn="_qSoGAJxJEemb3L5RebzWiw" generalizations="_qSoGAZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qMAgoJxJEemb3L5RebzWiw"/>
+    <visualProperties xmi:id="_qStlkZxJEemb3L5RebzWiw" position="1115.0,-284.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qStlkpxJEemb3L5RebzWiw" label="+"/>
+    <attributes xmi:id="_qStlk5xJEemb3L5RebzWiw" defaultValue="0.001" name="FAILURE_RATE" staticAttribute="true">
+      <modelElement href="2030SU19Lab6.uml#_qOPVQJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qStllJxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qStllZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qStllpxJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qStll5xJEemb3L5RebzWiw" name="temp">
+      <modelElement href="2030SU19Lab6.uml#_qOP8UZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qStlmJxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qOQjYJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qStlmZxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qStlmpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qStlm5xJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qStlnJxJEemb3L5RebzWiw" comments="_qSoGApxJEemb3L5RebzWiw" targetConnectionVisual="_qSoGA5xJEemb3L5RebzWiw" name="TemperatureSensor">
+      <modelElement href="2030SU19Lab6.uml#_qMBHsJxJEemb3L5RebzWiw"/>
+      <keywords xmi:id="_qStlnZxJEemb3L5RebzWiw" keyword="create"/>
+      <visibility xmi:id="_qStlnpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qStln5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qStloJxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qMBuw5xJEemb3L5RebzWiw"/>
+        <type xmi:id="_qStloZxJEemb3L5RebzWiw" name="TemperatureSensor">
+          <modelElement href="2030SU19Lab6.uml#_qMAgoJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qStlopxJEemb3L5RebzWiw" name="temp">
+        <modelElement href="2030SU19Lab6.uml#_qMBuwJxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qStlo5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qStlpJxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qStlpZxJEemb3L5RebzWiw" name="get">
+      <modelElement href="2030SU19Lab6.uml#_qMBuxJxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qStlppxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qMCV0ZxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qStlp5xJEemb3L5RebzWiw" name="Annotations">
+        <modelElement href="2030SU19Lab6.uml#_qMC84JxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qStlqJxJEemb3L5RebzWiw" label="#"/>
+      <cardinality xmi:id="_qStlqZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qStlqpxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qMCV0JxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qStlq5xJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qStlrJxJEemb3L5RebzWiw" name="set">
+      <modelElement href="2030SU19Lab6.uml#_qMC84pxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qStlrZxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qMDj8ZxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qStlrpxJEemb3L5RebzWiw" name="Annotations">
+        <modelElement href="2030SU19Lab6.uml#_qMELAJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qStlr5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qStlsJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qStlsZxJEemb3L5RebzWiw" name="value">
+        <modelElement href="2030SU19Lab6.uml#_qMDj8JxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qStlspxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qStls5xJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qS0TQJxJEemb3L5RebzWiw" comments="_qSwo4JxJEemb3L5RebzWiw" targetConnectionVisual="_qSwo4ZxJEemb3L5RebzWiw" name="WeatherObserver" abstractClass="true" associationsIn="_qSxP8pxJEemb3L5RebzWiw" subclassedBy="_qSxP8JxJEemb3L5RebzWiw _qSxP8ZxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qMoywJxJEemb3L5RebzWiw"/>
+    <visualProperties xmi:id="_qS0TQZxJEemb3L5RebzWiw" position="727.0,-116.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qS0TQpxJEemb3L5RebzWiw" label="+"/>
+    <operations xmi:id="_qS0TQ5xJEemb3L5RebzWiw" comments="_qSxP85xJEemb3L5RebzWiw" targetConnectionVisual="_qSx3AJxJEemb3L5RebzWiw" abstractOperation="true" name="update">
+      <modelElement href="2030SU19Lab6.uml#_qMqA4JxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS0TRJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS0TRZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qS0TRpxJEemb3L5RebzWiw" comments="_qSx3AZxJEemb3L5RebzWiw" targetConnectionVisual="_qSx3ApxJEemb3L5RebzWiw" abstractOperation="true" name="getWeatherStation">
+      <modelElement href="2030SU19Lab6.uml#_qMqn8JxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS0TR5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS0TSJxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qS0TSZxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qNz3cJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qS0TSpxJEemb3L5RebzWiw" name="WeatherStation">
+          <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qS0TS5xJEemb3L5RebzWiw" comments="_qSyeEJxJEemb3L5RebzWiw" targetConnectionVisual="_qSyeEZxJEemb3L5RebzWiw" abstractOperation="true" name="setWeatherStation">
+      <modelElement href="2030SU19Lab6.uml#_qN0egJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS0TTJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS0TTZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qS0TTpxJEemb3L5RebzWiw" name="ws">
+        <modelElement href="2030SU19Lab6.uml#_qN0egZxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qS0TT5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qS0TUJxJEemb3L5RebzWiw" name="WeatherStation">
+          <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qTC8wJxJEemb3L5RebzWiw" comments="_qSp7NZxJEemb3L5RebzWiw" targetConnectionVisual="_qSp7NpxJEemb3L5RebzWiw" name="WSensor" abstractClass="true" associationsIn="_qSb4wJxJEemb3L5RebzWiw" subclassedBy="_qSoGAZxJEemb3L5RebzWiw _qSqiQJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qMFZIJxJEemb3L5RebzWiw"/>
+    <visualProperties xmi:id="_qTC8wZxJEemb3L5RebzWiw" position="1553.0,-731.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qTC8wpxJEemb3L5RebzWiw" label="+"/>
+    <attributes xmi:id="_qTC8w5xJEemb3L5RebzWiw" name="failed">
+      <modelElement href="2030SU19Lab6.uml#_qOQjYZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qTC8xJxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qORKcJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qTC8xZxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qTC8xpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qTC8x5xJEemb3L5RebzWiw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qTC8yJxJEemb3L5RebzWiw" name="failureRate">
+      <modelElement href="2030SU19Lab6.uml#_qORKcZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_qTC8yZxJEemb3L5RebzWiw" name="LegacyStyledElement">
+        <modelElement href="2030SU19Lab6.uml#_qORxgJxJEemb3L5RebzWiw"/>
+      </stereotypes>
+      <visibility xmi:id="_qTC8ypxJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qTC8y5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <type xmi:id="_qTC8zJxJEemb3L5RebzWiw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qTC8zZxJEemb3L5RebzWiw" comments="_qSrJUJxJEemb3L5RebzWiw" targetConnectionVisual="_qSrJUZxJEemb3L5RebzWiw" name="WSensor">
+      <modelElement href="2030SU19Lab6.uml#_qMGnQJxJEemb3L5RebzWiw"/>
+      <keywords xmi:id="_qTC8zpxJEemb3L5RebzWiw" keyword="create"/>
+      <visibility xmi:id="_qTC8z5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qTC80JxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qTC80ZxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qMHOUJxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qTC80pxJEemb3L5RebzWiw" name="WSensor">
+          <modelElement href="2030SU19Lab6.uml#_qMFZIJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qTC805xJEemb3L5RebzWiw" name="failureRate">
+        <modelElement href="2030SU19Lab6.uml#_qMGnQZxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qTC81JxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qTC81ZxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qTC81pxJEemb3L5RebzWiw" comments="_qSrJUpxJEemb3L5RebzWiw" targetConnectionVisual="_qSrJU5xJEemb3L5RebzWiw" name="read">
+      <modelElement href="2030SU19Lab6.uml#_qMHOUZxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qTC815xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qTC82JxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qTC82ZxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qMHOUpxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qTC82pxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qTC825xJEemb3L5RebzWiw" comments="_qSrJVJxJEemb3L5RebzWiw" targetConnectionVisual="_qSrwYJxJEemb3L5RebzWiw" abstractOperation="true" name="get">
+      <modelElement href="2030SU19Lab6.uml#_qMH1YJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qTC83JxJEemb3L5RebzWiw" label="#"/>
+      <cardinality xmi:id="_qTC83ZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qTC83pxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qMH1YZxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qTC835xJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qTC84JxJEemb3L5RebzWiw" comments="_qSrwYZxJEemb3L5RebzWiw" targetConnectionVisual="_qSrwYpxJEemb3L5RebzWiw" abstractOperation="true" name="set">
+      <modelElement href="2030SU19Lab6.uml#_qMIccJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qTC84ZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qTC84pxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qTC845xJEemb3L5RebzWiw" name="value">
+        <modelElement href="2030SU19Lab6.uml#_qMIccZxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qTC85JxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qTC85ZxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qTC85pxJEemb3L5RebzWiw" comments="_qSrwY5xJEemb3L5RebzWiw" targetConnectionVisual="_qSrwZJxJEemb3L5RebzWiw" name="fix">
+      <modelElement href="2030SU19Lab6.uml#_qMIccpxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qTC855xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qTC86JxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qS7oAJxJEemb3L5RebzWiw" comments="_qS3WkJxJEemb3L5RebzWiw" targetConnectionVisual="_qS3WkZxJEemb3L5RebzWiw" name="WeatherStation" associationsIn="_qSPEcJxJEemb3L5RebzWiw _qSeVApxJEemb3L5RebzWiw" associationsOut="_qSxP8pxJEemb3L5RebzWiw _qSoGAJxJEemb3L5RebzWiw _qSUkAJxJEemb3L5RebzWiw">
+    <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+    <visualProperties xmi:id="_qS8PEJxJEemb3L5RebzWiw" position="-374.0,85.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qS8PEZxJEemb3L5RebzWiw" label="+"/>
+    <attributes xmi:id="_qS8PEpxJEemb3L5RebzWiw" name="observers">
+      <modelElement href="2030SU19Lab6.uml#_qOS_oJxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_x-zpUJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-03cJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-8zQJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_qS8PE5xJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PFJxJEemb3L5RebzWiw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_qS8PFZxJEemb3L5RebzWiw" name="WeatherObserver">
+        <modelElement href="2030SU19Lab6.uml#_qMoywJxJEemb3L5RebzWiw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qS8PFpxJEemb3L5RebzWiw" name="tempSensors">
+      <modelElement href="2030SU19Lab6.uml#_qOU00ZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_x-wmAJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-x0IJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-9aUJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_qS8PF5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qS8PGJxJEemb3L5RebzWiw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_qS8PGZxJEemb3L5RebzWiw" name="TemperatureSensor">
+        <modelElement href="2030SU19Lab6.uml#_qMAgoJxJEemb3L5RebzWiw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qS8PGpxJEemb3L5RebzWiw" name="pressSensors">
+      <modelElement href="2030SU19Lab6.uml#_qOWC8ZxJEemb3L5RebzWiw"/>
+      <stereotypes xmi:id="_x-pRQJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-p4UJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_x-_PgJ0fEemfO6WrOYZ0-A" name="LegacyStyledElement"/>
+      <visibility xmi:id="_qS8PG5xJEemb3L5RebzWiw" label="-"/>
+      <cardinality xmi:id="_qS8PHJxJEemb3L5RebzWiw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_qS8PHZxJEemb3L5RebzWiw" name="PressureSensor">
+        <modelElement href="2030SU19Lab6.uml#_qLxQEJxJEemb3L5RebzWiw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qS8PHpxJEemb3L5RebzWiw" comments="_qS39oJxJEemb3L5RebzWiw" targetConnectionVisual="_qS39oZxJEemb3L5RebzWiw" name="WeatherStation">
+      <modelElement href="2030SU19Lab6.uml#_qMtrQJxJEemb3L5RebzWiw"/>
+      <keywords xmi:id="_qS8PH5xJEemb3L5RebzWiw" keyword="create"/>
+      <visibility xmi:id="_qS8PIJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PIZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qS8PIpxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qMuSUpxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qS8PI5xJEemb3L5RebzWiw" name="WeatherStation">
+          <modelElement href="2030SU19Lab6.uml#_qMr2EJxJEemb3L5RebzWiw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qS8PJJxJEemb3L5RebzWiw" comments="_qS39opxJEemb3L5RebzWiw" targetConnectionVisual="_qS39o5xJEemb3L5RebzWiw" name="publish">
+      <modelElement href="2030SU19Lab6.uml#_qMvgcJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8PJZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PJpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qS8PJ5xJEemb3L5RebzWiw" comments="_qS4ksJxJEemb3L5RebzWiw" targetConnectionVisual="_qS4ksZxJEemb3L5RebzWiw" name="getTemperature">
+      <modelElement href="2030SU19Lab6.uml#_qMwukJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8PKJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PKZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qS8PKpxJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qMwukZxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qS8PK5xJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qS8PLJxJEemb3L5RebzWiw" comments="_qS4kspxJEemb3L5RebzWiw" targetConnectionVisual="_qS4ks5xJEemb3L5RebzWiw" name="getPressure">
+      <modelElement href="2030SU19Lab6.uml#_qMxVoJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8PLZxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PLpxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qS8PL5xJEemb3L5RebzWiw">
+        <modelElement href="2030SU19Lab6.uml#_qMxVoZxJEemb3L5RebzWiw"/>
+        <type xmi:id="_qS8PMJxJEemb3L5RebzWiw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qS8PMZxJEemb3L5RebzWiw" comments="_qS5LwJxJEemb3L5RebzWiw" targetConnectionVisual="_qS5LwZxJEemb3L5RebzWiw" name="subscribe">
+      <modelElement href="2030SU19Lab6.uml#_qN4I4JxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8PMpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PM5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qS8PNJxJEemb3L5RebzWiw" name="o">
+        <modelElement href="2030SU19Lab6.uml#_qN4I4ZxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qS8PNZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qS8PNpxJEemb3L5RebzWiw" name="WeatherObserver">
+          <modelElement href="2030SU19Lab6.uml#_qMoywJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qS8PN5xJEemb3L5RebzWiw" comments="_qS5LwpxJEemb3L5RebzWiw" targetConnectionVisual="_qS5Lw5xJEemb3L5RebzWiw" name="unsubscribe">
+      <modelElement href="2030SU19Lab6.uml#_qN4v8JxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8POJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8POZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qS8POpxJEemb3L5RebzWiw" name="o">
+        <modelElement href="2030SU19Lab6.uml#_qN4v8ZxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qS8PO5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qS8PPJxJEemb3L5RebzWiw" name="WeatherObserver">
+          <modelElement href="2030SU19Lab6.uml#_qMoywJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qS8PPZxJEemb3L5RebzWiw" comments="_qS5LxJxJEemb3L5RebzWiw" targetConnectionVisual="_qS5LxZxJEemb3L5RebzWiw" name="addTempSensor">
+      <modelElement href="2030SU19Lab6.uml#_qN5XAJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8PPpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PP5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qS8PQJxJEemb3L5RebzWiw" name="ts">
+        <modelElement href="2030SU19Lab6.uml#_qN5XAZxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qS8PQZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qS8PQpxJEemb3L5RebzWiw" name="TemperatureSensor">
+          <modelElement href="2030SU19Lab6.uml#_qMAgoJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qS8PQ5xJEemb3L5RebzWiw" comments="_qS5y0JxJEemb3L5RebzWiw" targetConnectionVisual="_qS5y0ZxJEemb3L5RebzWiw" name="addPressSensor">
+      <modelElement href="2030SU19Lab6.uml#_qN5-EJxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8PRJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PRZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qS8PRpxJEemb3L5RebzWiw" name="ps">
+        <modelElement href="2030SU19Lab6.uml#_qN6lIJxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qS8PR5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qS8PSJxJEemb3L5RebzWiw" name="PressureSensor">
+          <modelElement href="2030SU19Lab6.uml#_qLxQEJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qS8PSZxJEemb3L5RebzWiw" comments="_qS5y0pxJEemb3L5RebzWiw" targetConnectionVisual="_qS5y05xJEemb3L5RebzWiw" name="removeTempSensor">
+      <modelElement href="2030SU19Lab6.uml#_qN6lIZxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8PSpxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PS5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qS8PTJxJEemb3L5RebzWiw" name="ts">
+        <modelElement href="2030SU19Lab6.uml#_qN7MMJxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qS8PTZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qS8PTpxJEemb3L5RebzWiw" name="TemperatureSensor">
+          <modelElement href="2030SU19Lab6.uml#_qMAgoJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qS8PT5xJEemb3L5RebzWiw" comments="_qS6Z4JxJEemb3L5RebzWiw" targetConnectionVisual="_qS6Z4ZxJEemb3L5RebzWiw" name="removePressSensor">
+      <modelElement href="2030SU19Lab6.uml#_qN7MMZxJEemb3L5RebzWiw"/>
+      <visibility xmi:id="_qS8PUJxJEemb3L5RebzWiw" label="+"/>
+      <cardinality xmi:id="_qS8PUZxJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qS8PUpxJEemb3L5RebzWiw" name="ps">
+        <modelElement href="2030SU19Lab6.uml#_qN7zQJxJEemb3L5RebzWiw"/>
+        <cardinality xmi:id="_qS8PU5xJEemb3L5RebzWiw" label="1" max="1" min="1"/>
+        <type xmi:id="_qS8PVJxJEemb3L5RebzWiw" name="PressureSensor">
+          <modelElement href="2030SU19Lab6.uml#_qLxQEJxJEemb3L5RebzWiw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

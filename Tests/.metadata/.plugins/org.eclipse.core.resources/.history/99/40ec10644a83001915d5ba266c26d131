@@ -1,0 +1,40 @@
+package test2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Utility2C {
+	
+	private Utility2C() {
+		
+	}
+	
+	public static char last(String s) {
+		return s.charAt(s.length());
+	}
+	
+	public static boolean areReversed(String s, String t) {
+		if (s.length() != t.length())
+			throw new IllegalArgumentException("Strings not same length");
+		
+		int j = s.length();
+		if (j > 1) {
+			for (int i = 0; i <= j; i++) {
+				if (s.charAt(i) != t.charAt(j - 1))
+					return false;
+			}
+		}
+		return true;
+	}
+	
+	public static List<Character> repeatedChars(String s){
+		List<Character> rep = new ArrayList<Character>();
+		
+		for (int i = 0; i < s.length(); i++) {
+			if (!rep.contains(s.charAt(i)))
+				rep.add(s.charAt(i));
+		}
+	}
+
+	
+}

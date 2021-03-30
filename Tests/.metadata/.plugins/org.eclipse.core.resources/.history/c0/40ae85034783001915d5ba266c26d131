@@ -1,0 +1,29 @@
+package test2;
+
+/**
+ * A class that represents a fraction. A Fraction has
+ * an integer numerator that may be any integer value.
+ * A Fraction has an integer denominator that is
+ * never equal to zero.
+ *
+ */
+public class Fraction {
+
+	/**
+	 * The numerator of the fraction.
+	 */
+	private int numer;
+	
+	/**
+	 * The denominator of the fraction.
+	 */
+	private int denom;
+	
+	public Fraction() {
+		this(1, 1);
+	}
+	
+	
+	
+	
+}
