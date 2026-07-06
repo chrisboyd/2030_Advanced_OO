@@ -1,0 +1,135 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  pdftitle={Anthony Altobello - Resume},
+  pdfauthor={Anthony Altobello}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% Tight lists
+\setlist[itemize]{leftmargin=*, topsep=2pt, itemsep=1pt, parsep=0pt, partopsep=0pt}
+
+% Inline label + content (avoids fixed-width description gaps)
+\newcommand{\resumeLine}[2]{%
+  \par\noindent\textbf{#1}\hspace{0.35em}#2\par\vspace{1pt}%
+}
+
+\newcommand{\resumeSubheading}[4]{%
+  \textbf{#1} \hfill #4 \\
+  \textit{#2} \hfill \textit{#3} \vspace{2pt}
+}
+
+\newcommand{\resumeProject}[2]{%
+  \textbf{#1} \hfill \textit{#2} \vspace{1pt}
+}
+
+\begin{document}
+
+% ---------- Header ----------
+\begin{center}
+  {\LARGE\bfseries ANTHONY ALTOBELLO}\\[4pt]
+  Angus, Ontario \textbar{} 437-980-3799 \textbar{} \href{mailto:anthony.a.hvac@gmail.com}{anthony.a.hvac@gmail.com}\\[2pt]
+  \textbf{Junior SOC Analyst \textbar{} Cybersecurity Operations \textbar{} Defensive Security}\\[2pt]
+  Government of Canada Security Clearance --- available upon request
+\end{center}
+
+% ---------- Summary ----------
+\section{Professional Summary}
+Canadian Armed Forces Sergeant transitioning into a junior SOC Analyst role with hands-on SIEM training and competition-proven analytical skills.
+\begin{itemize}
+  \item \textbf{SOC-ready tooling:} Microsoft Sentinel, Splunk, Elastic Stack, TheHive --- alert triage, log correlation, MITRE ATT\&CK mapping, IOC documentation
+  \item \textbf{Operational leadership:} 10+ years leading teams in high-pressure environments; DND Information Security Training; IT workstation modernization procurement and stakeholder coordination
+  \item \textbf{Proven aptitude:} Top 100 / 5,000+ (Hack The Box CTF) and 12th / 650+ (Meta CTF); completing C4V Network Security Program, University of Ottawa
+\end{itemize}
+
+% ---------- Skills ----------
+\section{Technical Skills}
+\resumeLine{Security Operations:}{Alert triage, SIEM query development, log analysis, event correlation, threat identification, IOC/observable management, incident investigation, escalation procedures, runbook documentation, shift handover reporting}
+\resumeLine{Platforms \& Tools:}{Microsoft Sentinel, Splunk, Elastic Stack, TheHive, Cyberbit, Windows, Linux (Kali, Parrot OS, Linux Mint), TCP/IP, SSH, syslog, authentication logs}
+\resumeLine{Frameworks \& Methods:}{MITRE ATT\&CK, NIST CSF fundamentals, reconnaissance and enumeration, malware analysis fundamentals}
+\resumeLine{Scripting:}{Python fundamentals, Bash scripting, Linux command line}
+\resumeLine{Training Platforms:}{TryHackMe, Hack The Box, home cybersecurity lab (virtualized Windows/Linux endpoints, networking, log collection, and security testing)}
+
+% ---------- Projects ----------
+\section{Cybersecurity Projects \& Training}
+
+\resumeProject{Coding for Veterans (C4V) --- University of Ottawa \textbar{} Network Security Program}{Jan 2026 -- Present}
+\begin{itemize}
+  \item Building applied skills in networking, defensive security, programming, and SOC operations through instructor-led and lab-based curriculum.
+  \item Contributed security findings and team reporting during C4V Hackathon.
+\end{itemize}
+
+\resumeProject{Cyberbit SOC Training Platform}{Jan 2026 -- Present}
+\begin{itemize}
+  \item Investigated multi-source security incidents using Sentinel, Splunk, Elastic Stack, and TheHive; correlated authentication, endpoint, and network telemetry.
+  \item Mapped activity to MITRE ATT\&CK TTPs, analyzed malware indicators, and documented observables, IOCs, and incident timelines for escalation.
+  \item \textit{Example scenario:} Triaged brute-force SSH alerts by correlating auth failures across syslog and SIEM data, validated false positives, and escalated confirmed threats with supporting evidence.
+\end{itemize}
+
+\resumeProject{TryHackMe}{Jan 2026 -- Present}
+\begin{itemize}
+  \item Completed 13+ hands-on rooms focused on SOC analyst workflows: alert monitoring, investigation, log analysis, phishing analysis, and defensive security fundamentals.
+\end{itemize}
+
+\resumeProject{Hack The Box --- THAA Hackers (2-person team)}{Jan 2026 -- Present}
+\begin{itemize}
+  \item Placed Top 100 of 5,000+ competitors in Capture The Flag event; applied reconnaissance, research, exploitation concepts, and structured problem-solving under time pressure.
+\end{itemize}
+
+\resumeProject{Meta CTF Challenge --- SkillBit Labs}{May 2026}
+\begin{itemize}
+  \item Ranked 12th of 650+ participants through technical analysis, research, and efficient investigative workflow.
+\end{itemize}
+
+% ---------- Experience ----------
+\section{Professional Experience}
+
+\resumeSubheading{Canadian Armed Forces --- Artillery Reconnaissance}{Sergeant}{Borden, ON}{2014 -- Present}
+\begin{itemize}
+  \item Served as \textbf{Contracting Authority} for IT workstation modernization contracts; guided stakeholders through requirements, procurement procedures, and budget management for enterprise endpoint deployments.
+  \item Translated operational and security requirements into procurement documentation; coordinated with clients and technical teams on asset lifecycle, configuration standards, and rollout planning.
+  \item Led small teams in time-sensitive environments requiring accurate situational analysis, risk assessment, structured reporting, and rapid decision-making under pressure.
+  \item Conducted reconnaissance operations involving information gathering, pattern analysis, threat and risk assessment, and actionable reporting to command --- directly transferable to alert investigation and threat hunting workflows.
+  \item Trained and mentored team members on procedures, quality standards, and accountability; maintained operational readiness across changing conditions.
+  \item Completed \textbf{DND Information Security Training} covering access control, information handling, and security incident reporting within a classified operational environment.
+\end{itemize}
+
+% ---------- Education ----------
+\section{Education \& Certifications}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X >{\raggedleft\arraybackslash}p{2.1in}@{}}
+  Network Security Program (Coding for Veterans), University of Ottawa & In Progress --- Expected 2027 \\
+  CCNA (Cisco Certified Network Associate) & In Progress --- Expected 2027/2028 \\
+  Basic Electronic Warfare Certificate, Barker College & Completed \\
+  DND Information Security Training, Department of National Defence & Completed \\
+\end{tabularx}
+
+% ---------- Additional ----------
+\section{Additional}
+\resumeLine{Awards:}{Colonel Commandant's Coin (Operational Flexibility and Reliability); Malaysian Engineer Officers' Coin (Leadership and Teaching); Top Graduate --- Command Post Technician Course (1 of 12)}
+\resumeLine{Operational Highlights:}{COVID-19 response, Arctic community assistance, state funeral security operations}
+\resumeLine{Languages:}{English (Native); French (Reading/Writing --- Intermediate; Speaking --- Basic Working Proficiency)}
+\resumeLine{Home Lab:}{Virtualized environment for networking, Windows/Linux administration, log management, syslog collection, and defensive security testing}
+
+\end{document}
