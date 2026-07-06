@@ -29,7 +29,11 @@
 
 % Tight lists
 \setlist[itemize]{leftmargin=*, topsep=2pt, itemsep=1pt, parsep=0pt, partopsep=0pt}
-\setlist[description]{leftmargin=0pt, labelwidth=1.35in, labelsep=4pt, font=\bfseries, topsep=2pt, itemsep=1pt}
+
+% Inline label + content (avoids fixed-width description gaps)
+\newcommand{\resumeLine}[2]{%
+  \par\noindent\textbf{#1}\hspace{0.35em}#2\par\vspace{1pt}%
+}
 
 \newcommand{\resumeSubheading}[4]{%
   \textbf{#1} \hfill #4 \\
@@ -61,13 +65,11 @@ Canadian Armed Forces Sergeant transitioning into a junior SOC Analyst role with
 
 % ---------- Skills ----------
 \section{Technical Skills}
-\begin{description}
-  \item[Security Operations:] Alert triage, SIEM query development, log analysis, event correlation, threat identification, IOC/observable management, incident investigation, escalation procedures, runbook documentation, shift handover reporting
-  \item[Platforms \& Tools:] Microsoft Sentinel, Splunk, Elastic Stack, TheHive, Cyberbit, Windows, Linux (Kali, Parrot OS, Linux Mint), TCP/IP, SSH, syslog, authentication logs
-  \item[Frameworks \& Methods:] MITRE ATT\&CK, NIST CSF fundamentals, reconnaissance and enumeration, malware analysis fundamentals
-  \item[Scripting:] Python fundamentals, Bash scripting, Linux command line
-  \item[Training Platforms:] TryHackMe, Hack The Box, home cybersecurity lab (virtualized Windows/Linux endpoints, networking, log collection, and security testing)
-\end{description}
+\resumeLine{Security Operations:}{Alert triage, SIEM query development, log analysis, event correlation, threat identification, IOC/observable management, incident investigation, escalation procedures, runbook documentation, shift handover reporting}
+\resumeLine{Platforms \& Tools:}{Microsoft Sentinel, Splunk, Elastic Stack, TheHive, Cyberbit, Windows, Linux (Kali, Parrot OS, Linux Mint), TCP/IP, SSH, syslog, authentication logs}
+\resumeLine{Frameworks \& Methods:}{MITRE ATT\&CK, NIST CSF fundamentals, reconnaissance and enumeration, malware analysis fundamentals}
+\resumeLine{Scripting:}{Python fundamentals, Bash scripting, Linux command line}
+\resumeLine{Training Platforms:}{TryHackMe, Hack The Box, home cybersecurity lab (virtualized Windows/Linux endpoints, networking, log collection, and security testing)}
 
 % ---------- Projects ----------
 \section{Cybersecurity Projects \& Training}
@@ -125,11 +127,9 @@ Canadian Armed Forces Sergeant transitioning into a junior SOC Analyst role with
 
 % ---------- Additional ----------
 \section{Additional}
-\begin{description}
-  \item[Awards:] Colonel Commandant's Coin (Operational Flexibility and Reliability); Malaysian Engineer Officers' Coin (Leadership and Teaching); Top Graduate --- Command Post Technician Course (1 of 12)
-  \item[Operational Highlights:] COVID-19 response, Arctic community assistance, state funeral security operations
-  \item[Languages:] English (Native); French (Reading/Writing --- Intermediate; Speaking --- Basic Working Proficiency)
-  \item[Home Lab:] Virtualized environment for networking, Windows/Linux administration, log management, syslog collection, and defensive security testing
-\end{description}
+\resumeLine{Awards:}{Colonel Commandant's Coin (Operational Flexibility and Reliability); Malaysian Engineer Officers' Coin (Leadership and Teaching); Top Graduate --- Command Post Technician Course (1 of 12)}
+\resumeLine{Operational Highlights:}{COVID-19 response, Arctic community assistance, state funeral security operations}
+\resumeLine{Languages:}{English (Native); French (Reading/Writing --- Intermediate; Speaking --- Basic Working Proficiency)}
+\resumeLine{Home Lab:}{Virtualized environment for networking, Windows/Linux administration, log management, syslog collection, and defensive security testing}
 
 \end{document}
