@@ -8,7 +8,11 @@ Government of Canada Security Clearance — available upon request
 
 ## PROFESSIONAL SUMMARY
 
-Cybersecurity professional transitioning from Canadian Armed Forces operations into a SOC Analyst role. Completing the Network Security Program through Coding for Veterans at the University of Ottawa, with hands-on experience in Microsoft Sentinel, Splunk, Elastic Stack, and TheHive across alert triage, log correlation, MITRE ATT&CK-based investigations, IOC management, and incident documentation. Brings 10+ years of leadership in time-sensitive environments, structured reconnaissance and reporting, and IT procurement supporting enterprise workstation modernization. Seeking a junior SOC or security operations role where disciplined analysis, clear communication, and continuous improvement strengthen organizational security posture.
+Canadian Armed Forces Sergeant transitioning into a junior SOC Analyst role with hands-on SIEM training and competition-proven analytical skills.
+
+- **SOC-ready tooling:** Microsoft Sentinel, Splunk, Elastic Stack, TheHive — alert triage, log correlation, MITRE ATT&CK mapping, IOC documentation
+- **Operational leadership:** 10+ years leading teams in high-pressure environments; DND Information Security Training; IT workstation modernization procurement and stakeholder coordination
+- **Proven aptitude:** Top 100 / 5,000+ (Hack The Box CTF) and 12th / 650+ (Meta CTF); completing C4V Network Security Program, University of Ottawa
 
 ---
 
